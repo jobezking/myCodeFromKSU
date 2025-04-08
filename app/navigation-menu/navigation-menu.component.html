@@ -1,0 +1,37 @@
+<div>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+        <span>Menu</span>
+    </button>
+    
+    <mat-menu #menu="matMenu">
+        <!--Condition-->
+        <button mat-menu-item routerLink = "/listConditions">
+            <span>List Conditions</span>
+        </button>
+        <button mat-menu-item routerLink = "/addCondition">
+            <span>Add Condition</span>
+        </button>
+        <!--Patient-->
+        <button mat-menu-item routerLink = "/listPatients">
+            <span>List Appointments</span>
+        </button>
+        <button mat-menu-item  routerLink = "/addPatient">
+            <span>Schedule Appointment</span>
+        </button>
+        <!--Student-->
+        <button mat-menu-item routerLink = "/listStudents">
+            <span>List Patients</span>
+        </button>
+        <button mat-menu-item  routerLink = "/addStudent">
+            <span>Add Patient</span>
+        </button>
+        <!--Doctor-->
+        <button mat-menu-item routerLink = "/listDoctors">
+            <span>List Doctors</span>
+        </button>
+        <button mat-menu-item  routerLink = "/addDoctor">
+           <span>Add Doctor</span>
+        </button>
+    </mat-menu>
+</div>

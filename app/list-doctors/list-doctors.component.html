@@ -1,0 +1,22 @@
+<h2>List Doctors</h2>
+<body>
+    <div id="mainContent"> </div>
+  <div id="centerContainer">
+    <div id = "content-grid">
+      <p id = "mainHeading">Doctor List</p>
+      <section class="cards" >
+<div>
+  <ul *ngFor ="let doctor of doctors let i = index">
+      <li> 
+        {{doctor._id}}: {{doctor.firstName}} {{doctor.middleName}}  {{doctor.lastName}} 
+        {{doctor.dob}} {{doctor.gender}} {{doctor.email}}
+        {{doctor.street}} {{doctor.city}} {{doctor.state}} {{doctor.zip}}
+        {{doctor.degree}} {{doctor.instName}} {{doctor.year}}
+        {{doctor.specialty}} 
+        {{doctor.newpatient}} 
+          (index {{i}})
+           <button mat-button color="warn" (click)="onDelete(doctor._id)">DELETE</button>
+           <button mat-button color="accent" [routerLink]="['/editDoctor', doctor._id]">UPDATE</button>
+      </li>      
+  </ul>
+</div>

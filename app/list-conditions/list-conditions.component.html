@@ -1,0 +1,10 @@
+<h2>List Conditions</h2>
+<div>
+    <ul *ngFor ="let condition of conditions let i = index">
+        <li> 
+          {{condition._id}}: {{condition.conditionName}} {{condition.conditionNumber}} {{condition.conditionText}} <!--(index {{i}} -->)
+          <button mat-button color="warn" (click)="onDelete(condition._id)">DELETE</button>
+          <button mat-button color="accent" [routerLink]="['/editCondition', condition._id]">UPDATE</button>
+        </li>
+    </ul>
+</div>

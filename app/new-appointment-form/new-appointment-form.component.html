@@ -1,0 +1,72 @@
+<div id = "appointmentForm">
+    <h3>{{mode}} an Appointment</h3>
+    <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+       
+        <mat-form-field class="example-half-width">
+            <input matInput placeholder="First Name" id="firstname" [(ngModel)]="firstName" name="firstname" required >
+        </mat-form-field>
+        <mat-form-field class="example-half-width">
+            <input matInput placeholder="Last Name" id="lastname" [(ngModel)]="lastName" name="lastname" required>
+        </mat-form-field>
+        
+      
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Email" id="email"  [(ngModel)]="email" name="email" required >
+        </mat-form-field>
+    
+        <mat-form-field class="example-half-width">
+          <input matInput placeholder="Phone" id="phone" [(ngModel)]="phone" name="phone" required >
+        </mat-form-field>
+  
+       
+        <mat-form-field class="example-half-width">
+          <input matInput placeholder="Reason for Visit" id="reason" [(ngModel)]="reason" name="reason" required>
+        </mat-form-field>
+        <br>
+  
+       <mat-form-field >
+          <input matInput placeholder="Choose an appointment date"  id = "date" [(ngModel)]="date" name="date" >
+        </mat-form-field> 
+      <!--
+        <input matInput [matDatepicker]="picker">  
+         <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle> -->
+      <!-- <mat-datepicker #picker></mat-datepicker> 
+      <mat-form-field appearance="fill" class="example-half-width">
+        <mat-label>Choose a date</mat-label>
+        <input matInput [matDatepicker]="picker"  id="date" [(ngModel)]="date" name="date" required>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field> -->
+      <mat-form-field class="example-half-width">
+        <input matInput placeholder="Doctor Name" id="doctorname" [(ngModel)]="doctorName" name="doctorname" required>
+      </mat-form-field>
+      <br>
+      <!-- 
+        <mat-form-field appearance="fill" class="example-half-width">
+          <mat-label>Select a doctor</mat-label>
+          <mat-select id="doctorName" [(ngModel)]="doctorName" name="doctorName" required>
+            <mat-option value="two">Dr. Lipschitz</mat-option>
+            <mat-option value="two">Dr. Phill</mat-option>
+            <mat-option value="one">Dr. Scholl</mat-option>
+          </mat-select>
+        </mat-form-field>-->
+        <br>
+        
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Leave a comment</mat-label>
+            <textarea matInput placeholder="Additional Comment" id="comment" [(ngModel)]="comment" name="comment"  matInput placeholder="Ex. It makes me feel..." required></textarea>
+          </mat-form-field>
+    
+        <!-- </mat-form-field> -->
+        <p>
+            <button type="submit" class="primaryButton" >Submit</button>
+        </p>
+    </form>
+    </div>
+           
+  
+  
+  
+  
+  
+  

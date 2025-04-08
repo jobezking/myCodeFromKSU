@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .example-half-width {
+    width: 48%;
+    margin: 4px;
+  }
+  
+  h3 {   color: #0093BE;
+         text-align: center;
+  }
+  
+  
+  
+  #appointmentForm { 
+    padding: .5rem;
+    display: block;
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    /* max-width: 50%;
+    margin: auto; */
+    /* text-align: center; */
+    border-color: black;
+  }
+  
+  .primaryButton {
+   
+    width: 35%;
+    background-color: #F26C6B;
+    color: #F7F7FB;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+  }
+  
+  .primaryButton:hover {
+    background-color: #DC6463;
+  }
+  input, select {
+    margin-right: 20px;
+    /* width: 75%; */
+    /* padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    display: block;
+    margin: auto; */
+   
+  }
+  

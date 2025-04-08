@@ -1,0 +1,71 @@
+<form [formGroup]="proposalForm" (ngSubmit)="onSubmit()">
+
+        <h2>Section I - Company and Mentor Information</h2>
+
+        <label for="contact-name">Contact Name: </label>
+        <input id="contact-name" type="text" formControlName="contactName">
+    
+        <label for="contact-job">Contact Job Title: </label>
+        <input id="contact-job" type="text" formControlName="contactJob">
+    
+        <label for="contact-email">Contact Email: </label>
+        <input id="contact-email" type="text" formControlName="contactEmail">
+    
+        <label for="contact-phone">Contact Phone: </label>
+        <input id="contact-phone" type="text" formControlName="contactPhone">
+        <br><br>
+        <label for="contact-company">Organization/Company Name: </label>
+        <input id="contact-company" type="text" formControlName="contactCompany">
+        <br>
+
+        <div formGroupName="contactAddress">
+        <label for="organization-address">Organization Address</label>
+        <br>
+        <label for="street">Street</label>
+        <input id="street" type="text" formControlName="street">
+        <br>
+        <label for="city">City</label>
+        <input id="city" type="text" formControlName="city">
+        <br>
+        <label for="state">State</label>
+        <input id="state" type="text" formControlName="state">
+        <br>
+        <label for="zip">Zip</label>
+        <input id="zip" type="text" formControlName="zip" (change)="onZipChange()">
+        <br>
+        </div>
+
+        <label for="contact-website">Organization Website: </label>
+        <input id="contact-website" type="text" formControlName="contactWebsite">
+
+        <h2>Section II - Project for Which Students Will Participate</h2>
+      
+        <label for="title">Project Title: </label>
+        <input id="title" type="text" formControlName="title">
+        <br>
+        <label for="description">Description of Project: </label>
+        <input id="description" type="text" formControlName="description">
+        <br>
+        <label for="skills">Technical Skills for Project: </label>
+        <input id="skills" type="text" formControlName="skills">
+        <br>
+        <label for="duties">Student Duties for Project: </label>
+        <input id="duties" type="text" formControlName="duties">
+        <br>
+        <label for="benefit">Project Benefits for Students: </label>
+        <input id="benefit" type="text" formControlName="benefit">
+        <br>
+        <label for="provisions">Assistance Provided to Students: </label>
+        <input id="provisions" type="text" formControlName="provisions">
+        <br>
+        <!-- 
+          <button type="submit" [disabled]="!proposalForm.valid" (click)="updateProposal()">Submit</button>
+          <button type="submit" (click)="onZipChange()">Submit</button>
+        -->
+        <form [formGroup]="proposalForm" (ngSubmit)="onSubmit()"></form>
+        <button type="submit" [disabled]="!proposalForm.valid" (click)="clearProposal()">Submit</button>
+         <!-- 
+        <p>Form Status: {{ proposalForm.status }}</p>
+        -->
+</form>
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> IT 6203 Lab 4</title>
+</head>
+<body>
+
+<!--<span>{{ title }} app is running!</span>
+<h4>IT 6203 Lab 2   Job King    9/24/2021 </h4>-->
+
+<h2>{{formName}}</h2>
+
+<app-navigation-menu></app-navigation-menu>
+<router-outlet></router-outlet>
+<!--
+<div>
+    <ul *ngFor ="let project of projects let i = index">
+        <li> 
+            {{project._id}}: {{project.projectName}} {{project.projectCategory}} (index {{i}})
+            <button mat-button color="warn" (click)="onDelete(project._id)">DELETE</button>
+        </li>
+    </ul>
+</div>
+
+<app-new-project-form></app-new-project-form>
+<app-proposal></app-proposal>
+-->
+</body>
+</html>

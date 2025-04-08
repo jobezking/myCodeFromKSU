@@ -1,0 +1,123 @@
+<body>
+        
+        
+    <div id="mainContent"> </div>
+  <div id="centerContainer">
+    <div id = "content-grid">
+      <p id = "mainHeading"> {{mode}} Doctor Information</p>
+      <section class="cards" >
+        <div>
+          <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+          <p>
+              <label for="firstName">First Name: </label>
+              <input placeholder="First Name" id="firstname" [(ngModel)]="firstName" name="firstname" >
+
+              <label for="middleName">Middle Name: </label>
+              <input placeholder="Middle Name" id="middlename" [(ngModel)]="middleName" name="middlename" >
+            
+              <label for="lastName">Last Name: </label>
+              <input placeholder="Last Name" id="lastname" [(ngModel)]="lastName" name="lastname" >
+          </p>
+          <br>
+             <label for="dob">Date of Birth: </label>
+             <input placeholder="xx/xx/xxxx" id="dob" [(ngModel)]="dob" name="dob" >
+
+              <label for="gender">Gender: </label>
+              <select id="gender" [(ngModel)]="gender" name="gender" >
+                <option vaule="Female">Female</option>
+                <option vaule="Male">Male</option>
+                <option vaule="other">Other</option>
+              </select>
+
+              <label for="email">Email: </label>
+              <input placeholder="Email" id="email" [(ngModel)]="email" name="email" >
+          
+              
+              
+                <br>
+                  <p><label>Location: </label></p>
+                <br>
+                  <label for="street">Street: </label>
+                  <input placeholder="Street" id="street" [(ngModel)]="street" name="street" >
+                <br>
+                <br>
+                  <label for="city">City: </label>
+                  <input placeholder="City" id="city" [(ngModel)]="city" name="city" >
+                
+                  <label for="state">State: </label>
+                  <input placeholder="State" id="state" [(ngModel)]="state" name="state" >
+                
+                  <label for="zip">Zip Code: </label>
+                  <input placeholder="Zipcode" id="zip" [(ngModel)]="zip" name="zip" >                     
+                <p>
+                <br>
+                <h4>Educational Qualifications:</h4> 
+                <table id = "table">
+                        <tr>
+                            <th></th>
+                            <th>Degree</th>
+                            <th>Board/Institute</th>
+                            <th>Year</th>
+                        </tr>
+                        <tr>
+                            <td><label>1.</label></td>
+                            <td><input id="degree" [(ngModel)]="degree" name="degree" placeholder="insert degree"></td>
+                            <td><input  id="instName" [(ngModel)]="instName" name="instName"  placeholder="insert institute name"></td>
+                            <td><input  id="year" [(ngModel)]="year" name="year"  placeholder="insert year of graduation"></td>
+                            
+                        </tr>
+
+                        <tr>
+                                <td><label>2.</label></td>
+                                <td><input type="text" name="degree" ></td>
+                                <td><input type="text" name="inst_name"></td>
+                                <td><input type="text" name="year"></td>
+                                
+                        </tr>
+
+                        <tr>
+                                <td><label>3.</label></td>
+                                <td><input type="text" name="degree" ></td>
+                                <td><input type="text" name="inst_name"></td>
+                                <td><input type="text" name="year"></td>
+                                
+                        </tr>
+                        <tr>
+                                <td><label>4.</label></td>
+                                <td><input type="text" name="degree" ></td>
+                                <td><input type="text" name="inst_name"></td>
+                                <td><input type="text" name="year"></td>
+                                
+                        </tr>
+                        <tr>
+                                <td><label>5.</label></td>
+                                <td><input type="text" name="degree"></td>
+                                <td><input type="text" name="inst_name"></td>
+                                <td><input type="text" name="year"></td>
+                                
+                        </tr>
+        
+                       
+                </table>
+                <br>
+                <h4>Specialty:</h4> 
+                <textarea  id="specialty" cols="100" [(ngModel)]="specialty" name="specialty"></textarea>
+                <br>
+                <br>
+                <label for="newpatient">Accepting New Patients?  </label>
+                <select id="newpatient" [(ngModel)]="newpatient" name="newpatient" >
+                  <option vaule="yes">Yes</option>
+                  <option vaule="no">No</option>
+                </select>
+              <br>
+              <br>
+             
+            
+              <p>
+                  <button type="submit" mat-raised-button>Submit</button>
+              </p>
+          
+          
+            </form>
+          </div>    
+        

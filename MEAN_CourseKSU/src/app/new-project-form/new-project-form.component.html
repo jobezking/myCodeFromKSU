@@ -1,0 +1,16 @@
+<div>
+    <h3>{{mode}} Project Form</h3>
+    <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+        <mat-form-field >
+            <input matInput placeholder="Project Name" id="projectname" [(ngModel)]="projectName" name="projectname" >
+        </mat-form-field>
+    
+        <mat-form-field >
+            <input matInput placeholder="Project Category" id="projectcategory" [(ngModel)]="projectCategory" name="projectcategory" >
+        </mat-form-field>
+    
+        <p>
+            <button type="submit" mat-raised-button color = "primary">Submit</button>
+        </p>
+    </form>
+    </div>

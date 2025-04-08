@@ -1,0 +1,46 @@
+<h2>Add Patient</h2>
+<div>
+    <h3>Personal Information</h3>
+    <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+        First Name                 <mat-form-field >
+            <input matInput placeholder="" id="firstname" [(ngModel)]="firstName" name="firstname" >
+        </mat-form-field>
+    
+        <br>Last Name   <mat-form-field >
+            <input matInput placeholder="" id="lastname" [(ngModel)]="lastName" name="lastname" >
+        </mat-form-field>
+
+        <br>Date of Birth   <mat-form-field >
+            <input matInput placeholder="XX/XX/XXXX" id="DOB" [(ngModel)]="DOB" name="DOB" >
+        </mat-form-field>
+
+        <br>Height   <mat-form-field >
+            <input matInput placeholder="Height in inches" id="height" [(ngModel)]="height" name="height" >
+        </mat-form-field>
+
+        <br>Weight   <mat-form-field >
+            <input matInput placeholder="Weight in pounds" id="weight" [(ngModel)]="weight" name="weight" >
+        </mat-form-field>
+
+        <br><h3>Address Information</h3>
+       <br>Street   <mat-form-field >
+            <input matInput placeholder="" id="street" [(ngModel)]="street" name="street" >
+        </mat-form-field>
+
+        <br>City   <mat-form-field >
+            <input matInput placeholder="" id="city" [(ngModel)]="city" name="city" >
+        </mat-form-field>
+
+        <br>State   <mat-form-field >
+            <input matInput placeholder="" id="state" [(ngModel)]="state" name="state" >
+        <br></mat-form-field>
+
+        <br>Zip   <mat-form-field >
+            <input matInput placeholder="" id="zip" [(ngModel)]="zip" name="zip" >
+        </mat-form-field>
+    
+        <p>
+            <button type="submit" mat-raised-button>Submit</button>
+        </p>
+    </form>
+    </div>

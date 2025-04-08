@@ -1,0 +1,24 @@
+<div>
+    <h3>{{mode}} Condition Form</h3>
+    <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+        <mat-form-field >
+            <input matInput placeholder="Condition Name" id="conditionname" [(ngModel)]="conditionName" name="conditionname" >
+        </mat-form-field>
+
+        <br><br>
+
+        <mat-form-field >
+            <input matInput placeholder="Condition Number" id="conditionnnumber" [(ngModel)]="conditionNumber" name="conditionnnumber" >
+        </mat-form-field>
+
+        <br><br>
+
+        <mat-form-field >
+            <input matInput placeholder="Condition Text" id="conditiontext" [(ngModel)]="conditionText" name="conditiontext" >
+        </mat-form-field>
+
+        <p>
+            <button type="submit" mat-raised-button color = "primary">Submit</button>
+        </p>
+    </form>
+</div>

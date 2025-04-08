@@ -1,0 +1,9 @@
+<div>
+    <ul *ngFor ="let project of projects let i = index">
+        <li> 
+            {{project._id}}: {{project.projectName}} {{project.projectCategory}} (index {{i}})
+            <button mat-button color="warn" (click)="onDelete(project._id)">DELETE</button>
+            <button mat-button color="accent" [routerLink]="['/editProject', project._id]">UPDATE</button>
+        </li>
+    </ul>
+</div>
