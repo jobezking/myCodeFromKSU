@@ -1,0 +1,1 @@
+Best WCSS: 78.85144142614601, Best Iteration: 4,             Worst WCSS: 142.75406249999997 Worst Iteration: 5

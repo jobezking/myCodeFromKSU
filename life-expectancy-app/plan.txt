@@ -1,0 +1,60 @@
+0. Create layer2.py and layer3.py
+1. Get state, county, year, race, sex from app.py and send it to life_expectancy_app.py to calculate life_expectancy
+2. life_expectancy_app.py sends state, county, year, race, sex, life_expectancy to layer2.py
+3. layer2.py has:
+state_county_le_p_censustract_model_data            U.S._Life_Expectancy_at_Birth_by_State_and_Census_Tract_-_2010-2015.csv
+state_sex_le_p_stderr_model_data              U.S._State_Life_Expectancy_by_Sex__2020.csv
+nchs_year_race_sex_le_p_deathrate_model_data     NCHS_-_Death_rates_and_life_expectancy_at_birth.csv
+4. Uses
+state_county_le_p_censustract_model_data           to calculate censustract from state, county, life_expectancy
+state_sex_le_p_stderr_model_data                   to calculate sdterr from state, sex, life_expectancy
+nchs_year_race_sex_le_p_deathrate_model_data       to calculate deathrate from year, race, sex, life_expectancy
+Will need to train models from data first before making predictions
+5. layer2.py sends state, county, year, race, sex, censustract, sdterr, deathrate to layer3.py
+6. layer3.py trains:
+state_county_censustract_model_data         U.S._Life_Expectancy_at_Birth_by_State_and_Census_Tract_-_2010-2015.csv
+state_sex_stderr_model_data                 U.S._State_Life_Expectancy_by_Sex__2020.csv
+nchs_year_race_sex_deathrate_model_data     NCHS_-_Death_rates_and_life_expectancy_at_birth.csv
+ssa_year_sex_model_data                     SSA_Life_Expectancy_by_sex_1940_2080.csv
+_133_year_race_sex_model_data               133_life-expectancy_reformatted.csv
+and creates base predictions, stacking meta-model and generates final life expectancy prediction
+7. layer3.py returns final life expectancy prediction to layer2.
+8. layer2.py returns final life expectancy prediction to life_expectancy_app.py.
+9. life_expectancy_app.py returns final life expectancy prediction to app.py.
+10. app.py: unchanged. 
+life_expectancy_app.py: 
+only updated to divert life_expectancy, state, county, year, race, sex to layer2.py instead of immediately returning it to app.py
+returns response from layer2.py to app.py
+
+Need different models
+1. Use ElasticNet on state-county-census. For others use XGBoost. For meta-model keep linear regression
+
+from sklearn.pipeline import Pipeline
+from xgboost import XGBRegressor
+from sklearn.linear_model import ElasticNet
+
+elasticnet_pipeline = Pipeline(steps=[
+    ('transformer', transformer),
+    ('model', ElasticNet(
+        alpha=0.1,
+        l1_ratio=0.5,
+        max_iter=1000,
+        random_state=42
+    ))
+])
+
+xgboost_pipeline = Pipeline(steps=[
+    ('transformer', transformer), 
+    ('model', XGBRegressor(
+        n_estimators=100,
+        learning_rate=0.1,
+        max_depth=3,
+        min_child_weight=3,
+        subsample=0.8,
+        colsample_bytree=0.8,
+        reg_alpha=0.1,
+        reg_lambda=1.0,
+        random_state=42,
+        n_jobs=-1
+    ))
+])

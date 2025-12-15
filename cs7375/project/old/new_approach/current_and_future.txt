@@ -1,0 +1,10 @@
+Current: averaging predictions (due Sunday). simple statistical imputation. 
+Will only use subset of geo data because of duplicates in state and county. 
+Will use full demo data.
+Future: Meta-Model (Ensemble Learning) with model-based learning, model_based imputation
+Will at minimum add full geo data for at least 3 models. Will aim for 5 and a max of 7 models by searching for other datasets. 
+follow this thread: https://copilot.microsoft.com/chats/aNiUqRvoapxXXjBJgXV4i
+Flask code will need county-state pair data structure to validate
+state-county pairs for validity.
+Will also need to boundary check date of birth, race and sex.
+SQLite database: https://gemini.google.com/app/8f3f7834498899d9

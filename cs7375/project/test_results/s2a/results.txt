@@ -1,0 +1,10 @@
+Execution Results:
+                      Model      RMSE       MAE        R2    Adj_R2   CV_RMSE
+0        ssa_year_sex_model  4.526851  3.154658  0.694902  0.693756  4.614353
+1           state_sex_model  6.538179  3.843049  0.363555  0.329694  6.652627
+2        state_county_model  6.900438  4.310971  0.291074  2.331884  6.856661
+3  nchs_year_race_sex_model  3.621563  2.496170  0.804728  0.803441  3.980712
+4  _133_year_race_sex_model  3.621563  2.496170  0.804728  0.803441  3.980712
+5       STACKING_META_MODEL  3.326241  2.393639  0.835277  0.834503  3.579209
+Saved visualization: model_performance_RMSE.png
+

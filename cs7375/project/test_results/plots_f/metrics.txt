@@ -1,0 +1,59 @@
+=== Evaluation Results ===
+
+Model: state_county_model
+  RMSE: 2.2594
+  MAE: 1.6624
+  R2: 0.2158
+  Adj_R2: 0.2133
+  CV_RMSE: 2.1779
+
+Model: ssa_year_sex_model
+  RMSE: 1.7803
+  MAE: 1.5046
+  R2: 0.9075
+  Adj_R2: 0.9041
+  CV_RMSE: 1.8342
+
+Model: state_sex_model
+  RMSE: 0.3833
+  MAE: 0.2840
+  R2: 0.9887
+  Adj_R2: 0.9879
+  CV_RMSE: 0.5739
+
+Model: nchs_year_race_sex_model
+  RMSE: 3.9031
+  MAE: 2.9432
+  R2: 0.8956
+  Adj_R2: 0.8941
+  CV_RMSE: 3.6896
+
+Model: _133_year_race_sex_model
+  RMSE: 1.2595
+  MAE: 0.8810
+  R2: 0.9541
+  Adj_R2: 0.9531
+  CV_RMSE: 1.2934
+
+Model: meta_model
+  RMSE: 4.3964
+  MAE: 3.2525
+  R2: 0.7122
+  Adj_R2: 0.7109
+  CV_RMSE: 3.6133
+  F_statistic: 4353.0486
+  F_pvalue: 0.0000
+  coef_tstats:
+    const: -21.879220479899303
+    state_county_model_pred: 18.73922239479527
+    ssa_year_sex_model_pred: 5.18353083594805
+    state_sex_model_pred: -4.975866073791053
+    nchs_year_race_sex_model_pred: 38.92875811453842
+    _133_year_race_sex_model_pred: 38.92875811437398
+  coef_pvalues:
+    const: 1.1462141493196077e-100
+    state_county_model_pred: 2.3166421343343646e-75
+    ssa_year_sex_model_pred: 2.2778493075633394e-07
+    state_sex_model_pred: 6.751226522118449e-07
+    nchs_year_race_sex_model_pred: 5.523609673278881e-284
+    _133_year_race_sex_model_pred: 5.523609699395334e-284

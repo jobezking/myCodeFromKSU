@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <title>Life Expectancy Predictor</title>
+</head>
+<body>
+    <h2>Life Expectancy Predictor</h2>
+    <form method="post">
+        <label>State:</label><br>
+        <select name="state" required>
+            {% for s in states %}
+                <option value="{{ s }}">{{ s }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label>County:</label><br>
+        <input type="text" name="county" required><br><br>
+
+        <label>Birth Year:</label><br>
+        <select name="year" required>
+            {% for y in years %}
+                <option value="{{ y }}">{{ y }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label>Race:</label><br>
+        <select name="race" required>
+            {% for r in races %}
+                <option value="{{ r }}">{{ r }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label>Sex:</label><br>
+        <select name="sex" required>
+            {% for s in sexes %}
+                <option value="{{ s }}">{{ s }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>Predicted Life Expectancy: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,34 @@
+python3.13 life_expectancy_app/app.py
+
+OR
+
+export FLASK_APP=life_expectancy_app/app.py
+flask run
+
+Interaction Flow
+Browser requests / → Flask routes it to index() in in_and_out.py.
+
+GET request → index.html is rendered with result=None.
+
+User submits form → POST request with numbers + string.
+
+in_and_out.py computes average, concatenates with string, sets result.
+
+Template re-renders with result displayed.
+
+This separation is the standard Flask pattern:
+
+app.py = driver / app factory
+
+in_and_out.py = business logic + routes
+
+index.html = presentation
+
+For VSCode debug
+pick any breakpoints in advance
+create .vscode folder and place launch.json in it
+enter F1 and choose or enter environment
+Choose "Run and Debug" or CTRL+SHIFT+D
+select "flask" from dropdown. 
+http://localhost:5000
+Cycle through app.py a few times, it takes awhile

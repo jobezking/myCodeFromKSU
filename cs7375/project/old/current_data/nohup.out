@@ -1,0 +1,177 @@
+[I 2025-10-15 22:21:45.197 ServerApp] Extension package panel.io.jupyter_server_extension took 0.6236s to import
+[I 2025-10-15 22:21:45.197 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-10-15 22:21:45.199 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-10-15 22:21:45.201 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-10-15 22:21:45.203 ServerApp] notebook | extension was successfully linked.
+[I 2025-10-15 22:21:45.392 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-10-15 22:21:45.392 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-10-15 22:21:45.405 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-10-15 22:21:45.406 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-10-15 22:21:45.407 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-10-15 22:21:45.411 LabApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.13/site-packages/jupyterlab
+[I 2025-10-15 22:21:45.411 LabApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 2025-10-15 22:21:45.411 LabApp] Extension Manager is 'pypi'.
+[I 2025-10-15 22:21:45.439 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-10-15 22:21:45.441 ServerApp] notebook | extension was successfully loaded.
+[I 2025-10-15 22:21:45.441 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-10-15 22:21:45.442 ServerApp] Serving notebooks from local directory: /home/jeking/github/cs7375/project/current_data/proposed_solution
+[I 2025-10-15 22:21:45.442 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-10-15 22:21:45.442 ServerApp] http://localhost:8888/tree?token=1769d38cf9951f0deee6e51d6dc75a48c869dc2ee15e7462
+[I 2025-10-15 22:21:45.442 ServerApp]     http://127.0.0.1:8888/tree?token=1769d38cf9951f0deee6e51d6dc75a48c869dc2ee15e7462
+[I 2025-10-15 22:21:45.442 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-10-15 22:21:45.455 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/jeking/.local/share/jupyter/runtime/jpserver-42817-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=1769d38cf9951f0deee6e51d6dc75a48c869dc2ee15e7462
+        http://127.0.0.1:8888/tree?token=1769d38cf9951f0deee6e51d6dc75a48c869dc2ee15e7462
+[I 2025-10-15 22:21:45.646 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-10-15 22:44:34.265 ServerApp] Creating new notebook in 
+[I 2025-10-15 22:44:37.203 ServerApp] Kernel started: 95b44748-7397-48f2-8250-319c1604e89a
+[I 2025-10-15 22:44:37.553 ServerApp] Connecting to kernel 95b44748-7397-48f2-8250-319c1604e89a.
+[W 2025-10-15 22:44:37.554 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-10-15 22:44:37.565 ServerApp] Connecting to kernel 95b44748-7397-48f2-8250-319c1604e89a.
+[I 2025-10-15 22:44:37.577 ServerApp] Connecting to kernel 95b44748-7397-48f2-8250-319c1604e89a.
+[I 2025-10-15 22:44:37.678 ServerApp] Connecting to kernel 95b44748-7397-48f2-8250-319c1604e89a.
+[E 2025-10-15 22:44:44.858 ServerApp] 
+[I 2025-10-15 22:44:44.858 ServerApp] Starting buffering for 95b44748-7397-48f2-8250-319c1604e89a:39d959a8-0bc3-4dba-99aa-37e54dfb4792
+[I 2025-10-15 22:45:04.029 ServerApp] Connecting to kernel 95b44748-7397-48f2-8250-319c1604e89a.
+[I 2025-10-15 22:45:04.178 ServerApp] Starting buffering for 95b44748-7397-48f2-8250-319c1604e89a:95b38294-53c1-4632-b4ae-7a0a0ca22bd5
+[I 2025-10-15 22:45:05.611 ServerApp] Kernel started: e72938f3-7d3b-4ab7-ac02-5a26e86f3f52
+[I 2025-10-15 22:45:05.909 ServerApp] Connecting to kernel e72938f3-7d3b-4ab7-ac02-5a26e86f3f52.
+[I 2025-10-15 22:47:04.688 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 22:52:15.034 ServerApp] Connecting to kernel 95b44748-7397-48f2-8250-319c1604e89a.
+[I 2025-10-15 22:52:15.046 ServerApp] Connecting to kernel e72938f3-7d3b-4ab7-ac02-5a26e86f3f52.
+[I 2025-10-15 22:52:15.169 ServerApp] Starting buffering for 95b44748-7397-48f2-8250-319c1604e89a:dafe387e-9da5-495d-a5f8-46004477a8f0
+[I 2025-10-15 22:53:06.679 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 22:53:10.913 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 22:55:07.679 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 22:56:27.580 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 23:00:27.680 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 23:04:28.679 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 23:05:46.386 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 23:09:46.679 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 23:11:47.714 ServerApp] Saving file at /nchs.ipynb
+[I 2025-10-15 23:11:48.016 ServerApp] Connecting to kernel 95b44748-7397-48f2-8250-319c1604e89a.
+[I 2025-10-15 23:11:48.031 ServerApp] Connecting to kernel e72938f3-7d3b-4ab7-ac02-5a26e86f3f52.
+[I 2025-10-15 23:11:48.111 ServerApp] Starting buffering for 95b44748-7397-48f2-8250-319c1604e89a:b282e5e6-b91b-4bb1-969f-b3eb74e2fe6c
+[I 2025-10-15 23:12:14.203 ServerApp] Kernel shutdown: 95b44748-7397-48f2-8250-319c1604e89a
+[I 2025-10-15 23:12:14.203 ServerApp] Kernel shutdown: e72938f3-7d3b-4ab7-ac02-5a26e86f3f52
+[I 2025-10-15 23:12:14.423 ServerApp] Shutting down on /api/shutdown request.
+[I 2025-10-15 23:12:14.423 ServerApp] Shutting down 6 extensions
+[I 2025-10-16 11:09:32.394 ServerApp] Extension package panel.io.jupyter_server_extension took 0.5212s to import
+[I 2025-10-16 11:09:32.394 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-10-16 11:09:32.396 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-10-16 11:09:32.398 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-10-16 11:09:32.400 ServerApp] notebook | extension was successfully linked.
+[I 2025-10-16 11:09:32.610 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-10-16 11:09:32.610 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-10-16 11:09:32.622 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-10-16 11:09:32.623 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-10-16 11:09:32.624 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-10-16 11:09:32.628 LabApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.13/site-packages/jupyterlab
+[I 2025-10-16 11:09:32.628 LabApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 2025-10-16 11:09:32.628 LabApp] Extension Manager is 'pypi'.
+[I 2025-10-16 11:09:32.661 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-10-16 11:09:32.663 ServerApp] notebook | extension was successfully loaded.
+[I 2025-10-16 11:09:32.663 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-10-16 11:09:32.664 ServerApp] Serving notebooks from local directory: /home/jeking/github/cs7375/project/current_data/proposed_solution
+[I 2025-10-16 11:09:32.664 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-10-16 11:09:32.664 ServerApp] http://localhost:8888/tree?token=13e1666a6263ca79be78305eb3bac252dc087aa4dd867468
+[I 2025-10-16 11:09:32.664 ServerApp]     http://127.0.0.1:8888/tree?token=13e1666a6263ca79be78305eb3bac252dc087aa4dd867468
+[I 2025-10-16 11:09:32.664 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-10-16 11:09:32.677 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/jeking/.local/share/jupyter/runtime/jpserver-40597-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=13e1666a6263ca79be78305eb3bac252dc087aa4dd867468
+        http://127.0.0.1:8888/tree?token=13e1666a6263ca79be78305eb3bac252dc087aa4dd867468
+[I 2025-10-16 11:09:32.877 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-10-16 19:17:06.633 ServerApp] Shutting down on /api/shutdown request.
+[I 2025-10-16 19:17:06.636 ServerApp] Shutting down 6 extensions
+[I 2025-10-17 10:25:32.459 ServerApp] Extension package panel.io.jupyter_server_extension took 0.6251s to import
+[I 2025-10-17 10:25:32.459 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-10-17 10:25:32.461 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-10-17 10:25:32.463 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-10-17 10:25:32.465 ServerApp] notebook | extension was successfully linked.
+[I 2025-10-17 10:25:32.677 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-10-17 10:25:32.677 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-10-17 10:25:32.689 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-10-17 10:25:32.690 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-10-17 10:25:32.691 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-10-17 10:25:32.695 LabApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.13/site-packages/jupyterlab
+[I 2025-10-17 10:25:32.695 LabApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 2025-10-17 10:25:32.695 LabApp] Extension Manager is 'pypi'.
+[I 2025-10-17 10:25:32.730 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-10-17 10:25:32.732 ServerApp] notebook | extension was successfully loaded.
+[I 2025-10-17 10:25:32.732 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-10-17 10:25:32.733 ServerApp] Serving notebooks from local directory: /home/jeking/github/cs7375/project/current_data/proposed_solution
+[I 2025-10-17 10:25:32.733 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-10-17 10:25:32.733 ServerApp] http://localhost:8888/tree?token=76783229c35aa7436df29477e656f0073c8948ccd82a901c
+[I 2025-10-17 10:25:32.733 ServerApp]     http://127.0.0.1:8888/tree?token=76783229c35aa7436df29477e656f0073c8948ccd82a901c
+[I 2025-10-17 10:25:32.733 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-10-17 10:25:32.749 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/jeking/.local/share/jupyter/runtime/jpserver-18518-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=76783229c35aa7436df29477e656f0073c8948ccd82a901c
+        http://127.0.0.1:8888/tree?token=76783229c35aa7436df29477e656f0073c8948ccd82a901c
+[I 2025-10-17 10:25:33.015 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-10-17 12:19:19.874 ServerApp] Creating new notebook in 
+[I 2025-10-17 12:19:22.940 ServerApp] Kernel started: a8e2300d-9b61-48fe-83ed-332c0b47e4f1
+[I 2025-10-17 12:19:23.289 ServerApp] Connecting to kernel a8e2300d-9b61-48fe-83ed-332c0b47e4f1.
+[W 2025-10-17 12:19:23.290 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-10-17 12:19:23.302 ServerApp] Connecting to kernel a8e2300d-9b61-48fe-83ed-332c0b47e4f1.
+[I 2025-10-17 12:19:23.314 ServerApp] Connecting to kernel a8e2300d-9b61-48fe-83ed-332c0b47e4f1.
+[I 2025-10-17 12:19:29.119 ServerApp] Kernel shutdown: a8e2300d-9b61-48fe-83ed-332c0b47e4f1
+[I 2025-10-17 12:19:47.096 ServerApp] Kernel started: 29c399d6-060d-4640-9297-3cfc3bcb77f6
+[I 2025-10-17 12:19:47.474 ServerApp] Connecting to kernel 29c399d6-060d-4640-9297-3cfc3bcb77f6.
+[I 2025-10-17 12:19:47.486 ServerApp] Connecting to kernel 29c399d6-060d-4640-9297-3cfc3bcb77f6.
+[I 2025-10-17 12:19:47.498 ServerApp] Connecting to kernel 29c399d6-060d-4640-9297-3cfc3bcb77f6.
+[I 2025-10-17 12:19:50.163 ServerApp] Connecting to kernel 29c399d6-060d-4640-9297-3cfc3bcb77f6.
+[E 2025-10-17 12:20:29.250 ServerApp] Uncaught exception GET /api/kernels/a8e2300d-9b61-48fe-83ed-332c0b47e4f1/channels?session_id=f5e77de1-12f3-4a9a-8dd2-28dbb9e44e42 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/api/kernels/a8e2300d-9b61-48fe-83ed-332c0b47e4f1/channels?session_id=f5e77de1-12f3-4a9a-8dd2-28dbb9e44e42', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/kernels/websocket.py", line 65, in get
+        await self.pre_get()
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/kernels/websocket.py", line 59, in pre_get
+        await self.connection.prepare()
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/kernels/connection/channels.py", line 318, in prepare
+        raise TimeoutError(msg)
+    TimeoutError: Kernel never reached an 'alive' state.
+[E 2025-10-17 12:20:29.262 ServerApp] {
+      "Host": "localhost:8888",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    }
+[E 2025-10-17 12:20:29.262 ServerApp] 500 GET /api/kernels/a8e2300d-9b61-48fe-83ed-332c0b47e4f1/channels?session_id=f5e77de1-12f3-4a9a-8dd2-28dbb9e44e42 (5f01506ddde54989b4f5585c57ef9b10@127.0.0.1) 60101.79ms referer=None
+[I 2025-10-17 12:21:46.173 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 12:38:24.161 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 12:40:23.093 ServerApp] Connecting to kernel 29c399d6-060d-4640-9297-3cfc3bcb77f6.
+[I 2025-10-17 12:40:25.161 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 12:42:26.160 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 12:44:27.160 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 12:45:02.138 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 12:53:03.161 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 12:59:05.423 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:00:49.601 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:10:53.161 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:12:06.439 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:16:07.160 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:18:07.184 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:20:08.160 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:24:09.159 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:26:09.181 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:26:39.979 ServerApp] Kernel interrupted: 29c399d6-060d-4640-9297-3cfc3bcb77f6
+[I 2025-10-17 13:28:09.202 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:48:05.142 ServerApp] Saving file at /project.ipynb
+[I 2025-10-17 13:48:14.728 ServerApp] Kernel shutdown: 29c399d6-060d-4640-9297-3cfc3bcb77f6
+[I 2025-10-17 13:48:15.045 ServerApp] Shutting down on /api/shutdown request.
+[I 2025-10-17 13:48:15.045 ServerApp] Shutting down 6 extensions

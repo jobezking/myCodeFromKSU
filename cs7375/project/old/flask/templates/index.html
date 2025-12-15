@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-m-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Expectancy Predictor</title>
+    <!-- Simple styling to make it look a bit better -->
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h2, h3 {
+            color: #0056b3;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Important for 100% width */
+        }
+        /* Style disabled dropdowns */
+        select:disabled {
+            background-color: #eee;
+            cursor: not-allowed;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        h3 {
+            margin-top: 20px;
+            padding: 10px;
+            background: #e6f7ff;
+            border: 1px solid #b3e0ff;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Life Expectancy Predictor</h2>
+    <form method="post">
+        <label for="state">State:</label>
+        <select name="state" id="state" required>
+            <option value="" disabled selected>-- Select a State --</option>
+            {% for s in states %}
+                <option value="{{ s }}">{{ s }}</option>
+            {% endfor %}
+        </select>
+
+        <!-- CHANGED: This is now a select, not text input -->
+        <label for="county">County:</label>
+        <select name="county" id="county" required>
+            <option value="" disabled selected>-- Select a State First --</option>
+        </select>
+
+        <label for="year">Birth Year:</label>
+        <select name="year" id="year" required>
+            <option value="" disabled selected>-- Select a Year --</option>
+            {% for y in years %}
+                <option value="{{ y }}">{{ y }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="race">Race:</label>
+        <select name="race" id="race" required>
+            <option value="" disabled selected>-- Select a Race --</option>
+            {% for r in races %}
+                <option value="{{ r }}">{{ r }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="sex">Sex:</label>
+        <select name="sex" id="sex" required>
+            <option value="" disabled selected>-- Select a Sex --</option>
+            {% for s in sexes %}
+                <option value="{{ s }}">{{ s }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>Predicted Life Expectancy: {{ prediction }}</h3>
+    {% endif %}
+
+    <!-- RESTORED: Standard JavaScript Logic -->
+    <script>
+        // 1. Get the map from Flask.
+        const stateCountyMap = {{ state_county_map | tojson }};
+        
+        // 2. Get references to the two dropdowns
+        const stateSelect = document.getElementById('state');
+        const countySelect = document.getElementById('county');
+        
+        // Check for null elements to ensure robustness
+        if (stateSelect && countySelect) {
+            // 3. Set the county dropdown to be disabled initially
+            countySelect.disabled = true;
+
+            // 4. Add an event listener to the state dropdown
+            stateSelect.addEventListener('change', function() {
+                // Get the value of the selected state
+                const selectedState = this.value;
+                
+                // Clear all existing options from the county dropdown
+                countySelect.innerHTML = '';
+                
+                // Check if a valid state is selected and if it exists in our map
+                if (selectedState && stateCountyMap[selectedState]) {
+                    // Enable the county dropdown
+                    countySelect.disabled = false;
+                    
+                    // Add the default "Select a County" option
+                    let defaultOption = new Option('-- Select a County --', '');
+                    defaultOption.disabled = true;
+                    defaultOption.selected = true;
+                    countySelect.add(defaultOption);
+                    
+                    // Populate the county dropdown with counties for the selected state
+                    stateCountyMap[selectedState].forEach(function(county) {
+                        countySelect.add(new Option(county, county));
+                    });
+                } else {
+                    // If no state is selected (or map is empty), disable and reset county dropdown
+                    let defaultOption = new Option('-- Select a State First --', '');
+                    defaultOption.disabled = true;
+                    defaultOption.selected = true;
+                    countySelect.add(defaultOption);
+                    countySelect.disabled = true;
+                }
+            });
+        }
+    </script>
+</body>
+</html>

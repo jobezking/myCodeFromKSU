@@ -1,0 +1,112 @@
+[I 2025-11-17 17:09:55.375 ServerApp] Extension package panel.io.jupyter_server_extension took 2.1010s to import
+[I 2025-11-17 17:09:55.376 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-11-17 17:09:55.385 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-11-17 17:09:55.395 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-11-17 17:09:55.404 ServerApp] notebook | extension was successfully linked.
+[I 2025-11-17 17:09:56.570 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-11-17 17:09:56.571 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-11-17 17:09:56.636 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-11-17 17:09:56.641 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-11-17 17:09:56.643 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-11-17 17:09:56.668 LabApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.13/site-packages/jupyterlab
+[I 2025-11-17 17:09:56.668 LabApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 2025-11-17 17:09:56.668 LabApp] Extension Manager is 'pypi'.
+[I 2025-11-17 17:09:56.812 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-11-17 17:09:56.817 ServerApp] notebook | extension was successfully loaded.
+[I 2025-11-17 17:09:56.818 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-11-17 17:09:56.819 ServerApp] Serving notebooks from local directory: /home/jeking/github/cs7375/project/data
+[I 2025-11-17 17:09:56.819 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-11-17 17:09:56.819 ServerApp] http://localhost:8888/tree?token=df4f9a6f485ad0a22e48e07c8b8d6b63d839bfb9d9854ea2
+[I 2025-11-17 17:09:56.819 ServerApp]     http://127.0.0.1:8888/tree?token=df4f9a6f485ad0a22e48e07c8b8d6b63d839bfb9d9854ea2
+[I 2025-11-17 17:09:56.819 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-11-17 17:09:58.142 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/jeking/.local/share/jupyter/runtime/jpserver-4713-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=df4f9a6f485ad0a22e48e07c8b8d6b63d839bfb9d9854ea2
+        http://127.0.0.1:8888/tree?token=df4f9a6f485ad0a22e48e07c8b8d6b63d839bfb9d9854ea2
+Opening "/home/jeking/.local/share/jupyter/runtime/jpserver-4713-open.html" with Okular  (text/html)
+/usr/bin/xdg-open: 882: x-www-browser: not found
+/usr/bin/xdg-open: 882: firefox: not found
+/usr/bin/xdg-open: 882: iceweasel: not found
+/usr/bin/xdg-open: 882: seamonkey: not found
+/usr/bin/xdg-open: 882: mozilla: not found
+/usr/bin/xdg-open: 882: epiphany: not found
+/usr/bin/xdg-open: 882: konqueror: not found
+/usr/bin/xdg-open: 882: chromium: not found
+/usr/bin/xdg-open: 882: chromium-browser: not found
+/usr/bin/xdg-open: 882: google-chrome: not found
+/usr/bin/xdg-open: 882: www-browser: not found
+/usr/bin/xdg-open: 882: links2: not found
+/usr/bin/xdg-open: 882: elinks: not found
+[I 2025-11-17 17:09:58.765 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+/usr/bin/xdg-open: 882: links: not found
+/usr/bin/xdg-open: 882: lynx: not found
+/usr/bin/xdg-open: 882: w3m: not found
+xdg-open: no method available for opening 'file:///home/jeking/.local/share/jupyter/runtime/jpserver-4713-open.html'
+QWidget::setMinimumSize: (okular_sidebar/Sidebar) Negative sizes (0,-1) are not possible
+[I 2025-11-17 17:10:23.619 ServerApp] 302 GET /?token=[secret] (@127.0.0.1) 0.85ms
+[I 2025-11-17 17:10:28.390 ServerApp] Kernel started: 7bff4fb2-90c8-4aff-aa94-2c47ec3092ab
+[I 2025-11-17 17:10:29.005 ServerApp] Connecting to kernel 7bff4fb2-90c8-4aff-aa94-2c47ec3092ab.
+[W 2025-11-17 17:10:29.009 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-11-17 17:10:29.037 ServerApp] Connecting to kernel 7bff4fb2-90c8-4aff-aa94-2c47ec3092ab.
+[I 2025-11-17 17:10:29.076 ServerApp] Connecting to kernel 7bff4fb2-90c8-4aff-aa94-2c47ec3092ab.
+[I 2025-11-17 17:10:36.419 ServerApp] Connecting to kernel 7bff4fb2-90c8-4aff-aa94-2c47ec3092ab.
+[I 2025-11-17 17:12:30.850 ServerApp] Saving file at /train_test_split.ipynb
+[I 2025-11-17 17:12:46.638 ServerApp] Saving file at /train_test_split.ipynb
+[I 2025-11-17 17:12:58.250 ServerApp] Kernel shutdown: 7bff4fb2-90c8-4aff-aa94-2c47ec3092ab
+[I 2025-11-17 17:12:58.778 ServerApp] Shutting down on /api/shutdown request.
+[I 2025-11-17 17:12:58.779 ServerApp] Shutting down 6 extensions
+[I 2025-11-17 20:52:58.260 ServerApp] Extension package panel.io.jupyter_server_extension took 0.4957s to import
+[I 2025-11-17 20:52:58.261 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-11-17 20:52:58.263 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-11-17 20:52:58.264 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-11-17 20:52:58.266 ServerApp] notebook | extension was successfully linked.
+[I 2025-11-17 20:52:58.432 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-11-17 20:52:58.432 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-11-17 20:52:59.105 ServerApp] nb_conda_kernels | enabled, 3 kernels found.
+[I 2025-11-17 20:52:59.116 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-11-17 20:52:59.117 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-11-17 20:52:59.118 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-11-17 20:52:59.121 LabApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.13/site-packages/jupyterlab
+[I 2025-11-17 20:52:59.121 LabApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 2025-11-17 20:52:59.121 LabApp] Extension Manager is 'pypi'.
+[I 2025-11-17 20:52:59.149 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-11-17 20:52:59.153 ServerApp] notebook | extension was successfully loaded.
+[I 2025-11-17 20:52:59.153 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-11-17 20:52:59.153 ServerApp] Serving notebooks from local directory: /home/jeking/github/cs7375/project/data
+[I 2025-11-17 20:52:59.153 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-11-17 20:52:59.153 ServerApp] http://localhost:8888/tree?token=1aa3ff507e441951b697b6cc1de14e2218867660424a9208
+[I 2025-11-17 20:52:59.153 ServerApp]     http://127.0.0.1:8888/tree?token=1aa3ff507e441951b697b6cc1de14e2218867660424a9208
+[I 2025-11-17 20:52:59.153 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-11-17 20:52:59.167 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/jeking/.local/share/jupyter/runtime/jpserver-7203-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=1aa3ff507e441951b697b6cc1de14e2218867660424a9208
+        http://127.0.0.1:8888/tree?token=1aa3ff507e441951b697b6cc1de14e2218867660424a9208
+[I 2025-11-17 20:52:59.317 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-11-17 20:54:09.214 ServerApp] delete /liexpr.py
+[W 2025-11-17 20:54:14.140 ServerApp] Notebook train_test_split.ipynb is not trusted
+[W 2025-11-17 20:54:14.750 ServerApp] Notebook train_test_split.ipynb is not trusted
+[I 2025-11-17 20:54:21.113 ServerApp] Kernel started: 28fad2d8-0181-45b8-98a7-2195c814827b
+CONDA_PREFIX=/opt/anaconda3/envs/main_env
+[I 2025-11-17 20:54:21.970 ServerApp] Connecting to kernel 28fad2d8-0181-45b8-98a7-2195c814827b.
+[W 2025-11-17 20:54:21.973 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-11-17 20:54:21.985 ServerApp] Connecting to kernel 28fad2d8-0181-45b8-98a7-2195c814827b.
+[I 2025-11-17 20:54:21.999 ServerApp] Connecting to kernel 28fad2d8-0181-45b8-98a7-2195c814827b.
+[W 2025-11-17 20:54:22.047 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7ae3b2ba3450>
+[I 2025-11-17 20:56:15.628 ServerApp] Saving file at /train_test_split.ipynb
+[I 2025-11-17 22:37:10.631 ServerApp] Saving file at /train_test_split.ipynb
+[I 2025-11-17 22:39:10.655 ServerApp] Saving file at /train_test_split.ipynb
+[I 2025-11-17 22:40:20.626 ServerApp] Connecting to kernel 28fad2d8-0181-45b8-98a7-2195c814827b.
+[I 2025-11-17 22:40:21.441 ServerApp] Connecting to kernel 28fad2d8-0181-45b8-98a7-2195c814827b.
+[I 2025-11-17 22:40:24.349 ServerApp] Connecting to kernel 28fad2d8-0181-45b8-98a7-2195c814827b.
+[I 2025-11-17 22:41:11.627 ServerApp] Saving file at /train_test_split.ipynb
+[I 2025-11-17 23:20:56.438 ServerApp] Kernel shutdown: 28fad2d8-0181-45b8-98a7-2195c814827b
+[I 2025-11-17 23:20:56.876 ServerApp] Shutting down on /api/shutdown request.
+[I 2025-11-17 23:20:56.876 ServerApp] Shutting down 6 extensions

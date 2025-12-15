@@ -1,0 +1,1072 @@
+,Year,Race,Sex,LifeExpectancy
+0,1900,All Races,Both Sexes,47.3
+1,1901,All Races,Both Sexes,49.1
+2,1902,All Races,Both Sexes,51.5
+3,1903,All Races,Both Sexes,50.5
+4,1904,All Races,Both Sexes,47.6
+5,1905,All Races,Both Sexes,48.7
+6,1906,All Races,Both Sexes,48.7
+7,1907,All Races,Both Sexes,47.6
+8,1908,All Races,Both Sexes,51.1
+9,1909,All Races,Both Sexes,52.1
+10,1910,All Races,Both Sexes,50.0
+11,1911,All Races,Both Sexes,52.6
+12,1912,All Races,Both Sexes,53.5
+13,1913,All Races,Both Sexes,52.5
+14,1914,All Races,Both Sexes,54.2
+15,1915,All Races,Both Sexes,54.5
+16,1916,All Races,Both Sexes,51.7
+17,1917,All Races,Both Sexes,50.9
+18,1918,All Races,Both Sexes,39.1
+19,1919,All Races,Both Sexes,54.7
+20,1920,All Races,Both Sexes,54.1
+21,1921,All Races,Both Sexes,60.8
+22,1922,All Races,Both Sexes,59.6
+23,1923,All Races,Both Sexes,57.2
+24,1924,All Races,Both Sexes,59.7
+25,1925,All Races,Both Sexes,59.0
+26,1926,All Races,Both Sexes,56.7
+27,1927,All Races,Both Sexes,60.4
+28,1928,All Races,Both Sexes,56.8
+29,1929,All Races,Both Sexes,57.1
+30,1930,All Races,Both Sexes,59.7
+31,1931,All Races,Both Sexes,61.1
+32,1932,All Races,Both Sexes,62.1
+33,1933,All Races,Both Sexes,63.3
+34,1934,All Races,Both Sexes,61.1
+35,1935,All Races,Both Sexes,61.7
+36,1936,All Races,Both Sexes,58.5
+37,1937,All Races,Both Sexes,60.0
+38,1938,All Races,Both Sexes,63.5
+39,1939,All Races,Both Sexes,63.7
+40,1940,All Races,Both Sexes,62.9
+41,1941,All Races,Both Sexes,64.8
+42,1942,All Races,Both Sexes,66.2
+43,1943,All Races,Both Sexes,63.3
+44,1944,All Races,Both Sexes,65.2
+45,1945,All Races,Both Sexes,65.9
+46,1946,All Races,Both Sexes,66.7
+47,1947,All Races,Both Sexes,66.8
+48,1948,All Races,Both Sexes,67.2
+49,1949,All Races,Both Sexes,68.0
+50,1950,All Races,Both Sexes,68.2
+51,1951,All Races,Both Sexes,68.4
+52,1952,All Races,Both Sexes,68.6
+53,1953,All Races,Both Sexes,68.8
+54,1954,All Races,Both Sexes,69.6
+55,1955,All Races,Both Sexes,69.6
+56,1956,All Races,Both Sexes,69.7
+57,1957,All Races,Both Sexes,69.5
+58,1958,All Races,Both Sexes,69.6
+59,1959,All Races,Both Sexes,69.9
+60,1960,All Races,Both Sexes,69.7
+61,1961,All Races,Both Sexes,70.2
+62,1962,All Races,Both Sexes,70.1
+63,1963,All Races,Both Sexes,69.9
+64,1964,All Races,Both Sexes,70.2
+65,1965,All Races,Both Sexes,70.2
+66,1966,All Races,Both Sexes,70.2
+67,1967,All Races,Both Sexes,70.5
+68,1968,All Races,Both Sexes,70.2
+69,1969,All Races,Both Sexes,70.5
+70,1970,All Races,Both Sexes,70.8
+71,1971,All Races,Both Sexes,71.1
+72,1972,All Races,Both Sexes,71.2
+73,1973,All Races,Both Sexes,71.4
+74,1974,All Races,Both Sexes,72.0
+75,1975,All Races,Both Sexes,72.6
+76,1976,All Races,Both Sexes,72.9
+77,1977,All Races,Both Sexes,73.3
+78,1978,All Races,Both Sexes,73.5
+79,1979,All Races,Both Sexes,73.9
+80,1980,All Races,Both Sexes,73.7
+81,1981,All Races,Both Sexes,74.1
+82,1982,All Races,Both Sexes,74.5
+83,1983,All Races,Both Sexes,74.6
+84,1984,All Races,Both Sexes,74.7
+85,1985,All Races,Both Sexes,74.7
+86,1986,All Races,Both Sexes,74.7
+87,1987,All Races,Both Sexes,74.9
+88,1988,All Races,Both Sexes,74.9
+89,1989,All Races,Both Sexes,75.1
+90,1990,All Races,Both Sexes,75.4
+91,1991,All Races,Both Sexes,75.5
+92,1992,All Races,Both Sexes,75.8
+93,1993,All Races,Both Sexes,75.5
+94,1994,All Races,Both Sexes,75.7
+95,1995,All Races,Both Sexes,75.8
+96,1996,All Races,Both Sexes,76.1
+97,1997,All Races,Both Sexes,76.5
+98,1998,All Races,Both Sexes,76.7
+99,1999,All Races,Both Sexes,76.7
+100,2000,All Races,Both Sexes,76.8
+101,2001,All Races,Both Sexes,77.0
+102,2002,All Races,Both Sexes,77.0
+103,2003,All Races,Both Sexes,77.6
+104,2004,All Races,Both Sexes,77.5
+105,2005,All Races,Both Sexes,77.6
+106,2006,All Races,Both Sexes,77.8
+107,2007,All Races,Both Sexes,78.1
+108,2008,All Races,Both Sexes,78.2
+109,2009,All Races,Both Sexes,78.5
+110,2010,All Races,Both Sexes,78.7
+111,2011,All Races,Both Sexes,78.7
+112,2012,All Races,Both Sexes,78.8
+113,2013,All Races,Both Sexes,78.8
+114,2014,All Races,Both Sexes,78.9
+115,2015,All Races,Both Sexes,78.7
+116,2016,All Races,Both Sexes,78.7
+117,2017,All Races,Both Sexes,78.6
+118,2018,All Races,Both Sexes,78.7
+119,1900,All Races,Female,48.3
+120,1901,All Races,Female,50.6
+121,1902,All Races,Female,53.4
+122,1903,All Races,Female,52.0
+123,1904,All Races,Female,49.1
+124,1905,All Races,Female,50.2
+125,1906,All Races,Female,50.8
+126,1907,All Races,Female,49.9
+127,1908,All Races,Female,52.8
+128,1909,All Races,Female,53.8
+129,1910,All Races,Female,51.8
+130,1911,All Races,Female,54.4
+131,1912,All Races,Female,55.9
+132,1913,All Races,Female,55.0
+133,1914,All Races,Female,56.8
+134,1915,All Races,Female,56.8
+135,1916,All Races,Female,54.3
+136,1917,All Races,Female,54.0
+137,1918,All Races,Female,42.2
+138,1919,All Races,Female,56.0
+139,1920,All Races,Female,54.6
+140,1921,All Races,Female,61.8
+141,1922,All Races,Female,61.0
+142,1923,All Races,Female,58.5
+143,1924,All Races,Female,61.5
+144,1925,All Races,Female,60.6
+145,1926,All Races,Female,58.0
+146,1927,All Races,Female,62.1
+147,1928,All Races,Female,58.3
+148,1929,All Races,Female,58.7
+149,1930,All Races,Female,61.6
+150,1931,All Races,Female,63.1
+151,1932,All Races,Female,63.5
+152,1933,All Races,Female,65.1
+153,1934,All Races,Female,63.3
+154,1935,All Races,Female,63.9
+155,1936,All Races,Female,60.6
+156,1937,All Races,Female,62.4
+157,1938,All Races,Female,65.3
+158,1939,All Races,Female,65.4
+159,1940,All Races,Female,65.2
+160,1941,All Races,Female,66.8
+161,1942,All Races,Female,67.9
+162,1943,All Races,Female,64.4
+163,1944,All Races,Female,66.8
+164,1945,All Races,Female,67.9
+165,1946,All Races,Female,69.4
+166,1947,All Races,Female,69.7
+167,1948,All Races,Female,69.9
+168,1949,All Races,Female,70.7
+169,1950,All Races,Female,71.1
+170,1951,All Races,Female,71.4
+171,1952,All Races,Female,71.6
+172,1953,All Races,Female,72.0
+173,1954,All Races,Female,72.8
+174,1955,All Races,Female,72.8
+175,1956,All Races,Female,72.9
+176,1957,All Races,Female,72.7
+177,1958,All Races,Female,72.9
+178,1959,All Races,Female,73.2
+179,1960,All Races,Female,73.1
+180,1961,All Races,Female,73.6
+181,1962,All Races,Female,73.5
+182,1963,All Races,Female,73.4
+183,1964,All Races,Female,73.7
+184,1965,All Races,Female,73.8
+185,1966,All Races,Female,73.9
+186,1967,All Races,Female,74.3
+187,1968,All Races,Female,74.1
+188,1969,All Races,Female,74.4
+189,1970,All Races,Female,74.7
+190,1971,All Races,Female,75.0
+191,1972,All Races,Female,75.1
+192,1973,All Races,Female,75.3
+193,1974,All Races,Female,75.9
+194,1975,All Races,Female,76.6
+195,1976,All Races,Female,76.8
+196,1977,All Races,Female,77.2
+197,1978,All Races,Female,77.3
+198,1979,All Races,Female,77.8
+199,1980,All Races,Female,77.4
+200,1981,All Races,Female,77.8
+201,1982,All Races,Female,78.1
+202,1983,All Races,Female,78.1
+203,1984,All Races,Female,78.2
+204,1985,All Races,Female,78.2
+205,1986,All Races,Female,78.2
+206,1987,All Races,Female,78.3
+207,1988,All Races,Female,78.3
+208,1989,All Races,Female,78.5
+209,1990,All Races,Female,78.8
+210,1991,All Races,Female,78.9
+211,1992,All Races,Female,79.1
+212,1993,All Races,Female,78.8
+213,1994,All Races,Female,79.0
+214,1995,All Races,Female,78.9
+215,1996,All Races,Female,79.1
+216,1997,All Races,Female,79.4
+217,1998,All Races,Female,79.5
+218,1999,All Races,Female,79.4
+219,2000,All Races,Female,79.7
+220,2001,All Races,Female,79.5
+221,2002,All Races,Female,79.6
+222,2003,All Races,Female,79.7
+223,2004,All Races,Female,80.1
+224,2005,All Races,Female,80.1
+225,2006,All Races,Female,80.3
+226,2007,All Races,Female,80.6
+227,2008,All Races,Female,80.6
+228,2009,All Races,Female,80.9
+229,2010,All Races,Female,81.0
+230,2011,All Races,Female,81.1
+231,2012,All Races,Female,81.2
+232,2013,All Races,Female,81.2
+233,2014,All Races,Female,81.3
+234,2015,All Races,Female,81.1
+235,2016,All Races,Female,81.1
+236,2017,All Races,Female,81.1
+237,2018,All Races,Female,81.2
+238,1900,All Races,Male,46.3
+239,1901,All Races,Male,47.6
+240,1902,All Races,Male,49.8
+241,1903,All Races,Male,49.1
+242,1904,All Races,Male,46.2
+243,1905,All Races,Male,47.3
+244,1906,All Races,Male,46.9
+245,1907,All Races,Male,45.6
+246,1908,All Races,Male,49.5
+247,1909,All Races,Male,50.5
+248,1910,All Races,Male,48.4
+249,1911,All Races,Male,50.9
+250,1912,All Races,Male,51.5
+251,1913,All Races,Male,50.3
+252,1914,All Races,Male,52.0
+253,1915,All Races,Male,52.5
+254,1916,All Races,Male,49.6
+255,1917,All Races,Male,48.4
+256,1918,All Races,Male,36.6
+257,1919,All Races,Male,53.5
+258,1920,All Races,Male,53.6
+259,1921,All Races,Male,60.0
+260,1922,All Races,Male,58.4
+261,1923,All Races,Male,56.1
+262,1924,All Races,Male,58.1
+263,1925,All Races,Male,57.6
+264,1926,All Races,Male,55.5
+265,1927,All Races,Male,59.0
+266,1928,All Races,Male,55.6
+267,1929,All Races,Male,55.8
+268,1930,All Races,Male,58.1
+269,1931,All Races,Male,59.4
+270,1932,All Races,Male,61.0
+271,1933,All Races,Male,61.7
+272,1934,All Races,Male,59.3
+273,1935,All Races,Male,59.9
+274,1936,All Races,Male,56.6
+275,1937,All Races,Male,58.0
+276,1938,All Races,Male,61.9
+277,1939,All Races,Male,62.1
+278,1940,All Races,Male,60.8
+279,1941,All Races,Male,63.1
+280,1942,All Races,Male,64.7
+281,1943,All Races,Male,62.4
+282,1944,All Races,Male,63.6
+283,1945,All Races,Male,63.6
+284,1946,All Races,Male,64.4
+285,1947,All Races,Male,64.4
+286,1948,All Races,Male,64.6
+287,1949,All Races,Male,65.2
+288,1950,All Races,Male,65.6
+289,1951,All Races,Male,65.6
+290,1952,All Races,Male,65.8
+291,1953,All Races,Male,66.0
+292,1954,All Races,Male,66.7
+293,1955,All Races,Male,66.7
+294,1956,All Races,Male,66.7
+295,1957,All Races,Male,66.4
+296,1958,All Races,Male,66.6
+297,1959,All Races,Male,66.8
+298,1960,All Races,Male,66.6
+299,1961,All Races,Male,67.1
+300,1962,All Races,Male,66.9
+301,1963,All Races,Male,66.6
+302,1964,All Races,Male,66.8
+303,1965,All Races,Male,66.8
+304,1966,All Races,Male,66.7
+305,1967,All Races,Male,67.0
+306,1968,All Races,Male,66.6
+307,1969,All Races,Male,66.8
+308,1970,All Races,Male,67.1
+309,1971,All Races,Male,67.4
+310,1972,All Races,Male,67.4
+311,1973,All Races,Male,67.6
+312,1974,All Races,Male,68.2
+313,1975,All Races,Male,68.8
+314,1976,All Races,Male,69.1
+315,1977,All Races,Male,69.5
+316,1978,All Races,Male,69.6
+317,1979,All Races,Male,70.0
+318,1980,All Races,Male,70.0
+319,1981,All Races,Male,70.4
+320,1982,All Races,Male,70.8
+321,1983,All Races,Male,71.0
+322,1984,All Races,Male,71.1
+323,1985,All Races,Male,71.1
+324,1986,All Races,Male,71.2
+325,1987,All Races,Male,71.4
+326,1988,All Races,Male,71.4
+327,1989,All Races,Male,71.7
+328,1990,All Races,Male,71.8
+329,1991,All Races,Male,72.0
+330,1992,All Races,Male,72.3
+331,1993,All Races,Male,72.2
+332,1994,All Races,Male,72.4
+333,1995,All Races,Male,72.5
+334,1996,All Races,Male,73.1
+335,1997,All Races,Male,73.6
+336,1998,All Races,Male,73.8
+337,1999,All Races,Male,73.9
+338,2000,All Races,Male,74.3
+339,2001,All Races,Male,74.3
+340,2002,All Races,Male,74.4
+341,2003,All Races,Male,74.5
+342,2004,All Races,Male,75.0
+343,2005,All Races,Male,75.0
+344,2006,All Races,Male,75.2
+345,2007,All Races,Male,75.5
+346,2008,All Races,Male,75.6
+347,2009,All Races,Male,76.0
+348,2010,All Races,Male,76.2
+349,2011,All Races,Male,76.3
+350,2012,All Races,Male,76.4
+351,2013,All Races,Male,76.4
+352,2014,All Races,Male,76.5
+353,2015,All Races,Male,76.3
+354,2016,All Races,Male,76.2
+355,2017,All Races,Male,76.1
+356,2018,All Races,Male,76.2
+357,1900,Black,Both Sexes,33.0
+358,1901,Black,Both Sexes,33.7
+359,1902,Black,Both Sexes,34.6
+360,1903,Black,Both Sexes,33.1
+361,1904,Black,Both Sexes,30.8
+362,1905,Black,Both Sexes,31.3
+363,1906,Black,Both Sexes,32.9
+364,1907,Black,Both Sexes,32.5
+365,1908,Black,Both Sexes,34.9
+366,1909,Black,Both Sexes,35.7
+367,1910,Black,Both Sexes,35.6
+368,1911,Black,Both Sexes,36.4
+369,1912,Black,Both Sexes,37.9
+370,1913,Black,Both Sexes,38.4
+371,1914,Black,Both Sexes,38.9
+372,1915,Black,Both Sexes,38.9
+373,1916,Black,Both Sexes,41.3
+374,1917,Black,Both Sexes,38.8
+375,1918,Black,Both Sexes,31.1
+376,1919,Black,Both Sexes,44.5
+377,1920,Black,Both Sexes,45.3
+378,1921,Black,Both Sexes,51.5
+379,1922,Black,Both Sexes,52.4
+380,1923,Black,Both Sexes,48.3
+381,1924,Black,Both Sexes,46.6
+382,1925,Black,Both Sexes,45.7
+383,1926,Black,Both Sexes,44.6
+384,1927,Black,Both Sexes,48.2
+385,1928,Black,Both Sexes,46.3
+386,1929,Black,Both Sexes,46.7
+387,1930,Black,Both Sexes,48.1
+388,1931,Black,Both Sexes,50.4
+389,1932,Black,Both Sexes,53.7
+390,1933,Black,Both Sexes,54.7
+391,1934,Black,Both Sexes,51.8
+392,1935,Black,Both Sexes,53.1
+393,1936,Black,Both Sexes,49.0
+394,1937,Black,Both Sexes,50.3
+395,1938,Black,Both Sexes,52.9
+396,1939,Black,Both Sexes,54.5
+397,1940,Black,Both Sexes,53.1
+398,1941,Black,Both Sexes,53.8
+399,1942,Black,Both Sexes,56.6
+400,1943,Black,Both Sexes,55.6
+401,1944,Black,Both Sexes,56.6
+402,1945,Black,Both Sexes,57.7
+403,1946,Black,Both Sexes,59.1
+404,1947,Black,Both Sexes,59.7
+405,1948,Black,Both Sexes,60.0
+406,1949,Black,Both Sexes,60.6
+407,1950,Black,Both Sexes,60.8
+408,1951,Black,Both Sexes,61.2
+409,1952,Black,Both Sexes,61.4
+410,1953,Black,Both Sexes,62.0
+411,1954,Black,Both Sexes,63.4
+412,1955,Black,Both Sexes,63.7
+413,1956,Black,Both Sexes,63.6
+414,1957,Black,Both Sexes,63.0
+415,1958,Black,Both Sexes,63.4
+416,1959,Black,Both Sexes,63.9
+417,1960,Black,Both Sexes,63.6
+418,1961,Black,Both Sexes,64.5
+419,1962,Black,Both Sexes,64.2
+420,1963,Black,Both Sexes,63.7
+421,1964,Black,Both Sexes,64.2
+422,1965,Black,Both Sexes,64.3
+423,1966,Black,Both Sexes,64.2
+424,1967,Black,Both Sexes,64.9
+425,1968,Black,Both Sexes,64.1
+426,1969,Black,Both Sexes,64.5
+427,1970,Black,Both Sexes,64.1
+428,1971,Black,Both Sexes,64.6
+429,1972,Black,Both Sexes,64.7
+430,1973,Black,Both Sexes,65.0
+431,1974,Black,Both Sexes,66.0
+432,1975,Black,Both Sexes,66.8
+433,1976,Black,Both Sexes,67.2
+434,1977,Black,Both Sexes,67.7
+435,1978,Black,Both Sexes,68.1
+436,1979,Black,Both Sexes,68.5
+437,1980,Black,Both Sexes,68.1
+438,1981,Black,Both Sexes,68.9
+439,1982,Black,Both Sexes,69.4
+440,1983,Black,Both Sexes,69.4
+441,1984,Black,Both Sexes,69.5
+442,1985,Black,Both Sexes,69.3
+443,1986,Black,Both Sexes,69.1
+444,1987,Black,Both Sexes,69.1
+445,1988,Black,Both Sexes,68.9
+446,1989,Black,Both Sexes,68.8
+447,1990,Black,Both Sexes,69.1
+448,1991,Black,Both Sexes,69.3
+449,1992,Black,Both Sexes,69.6
+450,1993,Black,Both Sexes,69.2
+451,1994,Black,Both Sexes,69.5
+452,1995,Black,Both Sexes,69.6
+453,1996,Black,Both Sexes,70.2
+454,1997,Black,Both Sexes,71.1
+455,1998,Black,Both Sexes,71.3
+456,1999,Black,Both Sexes,71.4
+457,2000,Black,Both Sexes,71.8
+458,2001,Black,Both Sexes,72.0
+459,2002,Black,Both Sexes,72.2
+460,2003,Black,Both Sexes,72.4
+461,2004,Black,Both Sexes,72.9
+462,2005,Black,Both Sexes,73.0
+463,2006,Black,Both Sexes,73.4
+464,2007,Black,Both Sexes,73.8
+465,2008,Black,Both Sexes,74.3
+466,2009,Black,Both Sexes,74.7
+467,2010,Black,Both Sexes,75.1
+468,2011,Black,Both Sexes,75.3
+469,2012,Black,Both Sexes,75.5
+470,2013,Black,Both Sexes,75.5
+471,2014,Black,Both Sexes,75.6
+472,2015,Black,Both Sexes,75.5
+473,2016,Black,Both Sexes,75.3
+474,2017,Black,Both Sexes,75.3
+475,2018,Black,Both Sexes,
+476,1900,Black,Female,33.5
+477,1901,Black,Female,35.3
+478,1902,Black,Female,36.4
+479,1903,Black,Female,34.6
+480,1904,Black,Female,32.7
+481,1905,Black,Female,33.1
+482,1906,Black,Female,33.9
+483,1907,Black,Female,34.0
+484,1908,Black,Female,36.0
+485,1909,Black,Female,37.3
+486,1910,Black,Female,37.5
+487,1911,Black,Female,38.2
+488,1912,Black,Female,40.0
+489,1913,Black,Female,40.3
+490,1914,Black,Female,40.8
+491,1915,Black,Female,40.5
+492,1916,Black,Female,43.1
+493,1917,Black,Female,40.8
+494,1918,Black,Female,32.5
+495,1919,Black,Female,44.4
+496,1920,Black,Female,45.2
+497,1921,Black,Female,51.3
+498,1922,Black,Female,53.0
+499,1923,Black,Female,48.9
+500,1924,Black,Female,47.8
+501,1925,Black,Female,46.7
+502,1926,Black,Female,45.6
+503,1927,Black,Female,48.9
+504,1928,Black,Female,47.0
+505,1929,Black,Female,47.8
+506,1930,Black,Female,49.2
+507,1931,Black,Female,51.5
+508,1932,Black,Female,54.6
+509,1933,Black,Female,56.0
+510,1934,Black,Female,53.7
+511,1935,Black,Female,55.2
+512,1936,Black,Female,51.4
+513,1937,Black,Female,52.5
+514,1938,Black,Female,54.3
+515,1939,Black,Female,56.0
+516,1940,Black,Female,54.9
+517,1941,Black,Female,55.3
+518,1942,Black,Female,58.2
+519,1943,Black,Female,56.1
+520,1944,Black,Female,57.7
+521,1945,Black,Female,59.6
+522,1946,Black,Female,61.0
+523,1947,Black,Female,61.9
+524,1948,Black,Female,62.5
+525,1949,Black,Female,62.7
+526,1950,Black,Female,62.9
+527,1951,Black,Female,63.4
+528,1952,Black,Female,63.8
+529,1953,Black,Female,64.5
+530,1954,Black,Female,65.9
+531,1955,Black,Female,66.1
+532,1956,Black,Female,66.1
+533,1957,Black,Female,65.5
+534,1958,Black,Female,65.8
+535,1959,Black,Female,66.5
+536,1960,Black,Female,66.3
+537,1961,Black,Female,67.1
+538,1962,Black,Female,66.9
+539,1963,Black,Female,66.6
+540,1964,Black,Female,67.3
+541,1965,Black,Female,67.6
+542,1966,Black,Female,67.6
+543,1967,Black,Female,68.5
+544,1968,Black,Female,67.9
+545,1969,Black,Female,68.6
+546,1970,Black,Female,68.3
+547,1971,Black,Female,68.9
+548,1972,Black,Female,69.1
+549,1973,Black,Female,69.3
+550,1974,Black,Female,70.3
+551,1975,Black,Female,71.3
+552,1976,Black,Female,71.6
+553,1977,Black,Female,72.0
+554,1978,Black,Female,72.4
+555,1979,Black,Female,72.9
+556,1980,Black,Female,72.5
+557,1981,Black,Female,73.2
+558,1982,Black,Female,73.6
+559,1983,Black,Female,73.5
+560,1984,Black,Female,73.6
+561,1985,Black,Female,73.4
+562,1986,Black,Female,73.4
+563,1987,Black,Female,73.4
+564,1988,Black,Female,73.2
+565,1989,Black,Female,73.3
+566,1990,Black,Female,73.6
+567,1991,Black,Female,73.8
+568,1992,Black,Female,73.9
+569,1993,Black,Female,73.7
+570,1994,Black,Female,73.9
+571,1995,Black,Female,73.9
+572,1996,Black,Female,74.2
+573,1997,Black,Female,74.7
+574,1998,Black,Female,74.8
+575,1999,Black,Female,74.7
+576,2000,Black,Female,75.1
+577,2001,Black,Female,75.3
+578,2002,Black,Female,75.4
+579,2003,Black,Female,75.7
+580,2004,Black,Female,76.1
+581,2005,Black,Female,76.2
+582,2006,Black,Female,76.7
+583,2007,Black,Female,77.0
+584,2008,Black,Female,77.3
+585,2009,Black,Female,77.7
+586,2010,Black,Female,78.0
+587,2011,Black,Female,78.2
+588,2012,Black,Female,78.4
+589,2013,Black,Female,78.4
+590,2014,Black,Female,78.5
+591,2015,Black,Female,78.5
+592,2016,Black,Female,78.3
+593,2017,Black,Female,78.5
+594,2018,Black,Female,
+595,1900,Black,Male,32.5
+596,1901,Black,Male,32.2
+597,1902,Black,Male,32.9
+598,1903,Black,Male,31.7
+599,1904,Black,Male,29.1
+600,1905,Black,Male,29.6
+601,1906,Black,Male,31.8
+602,1907,Black,Male,31.1
+603,1908,Black,Male,33.8
+604,1909,Black,Male,34.2
+605,1910,Black,Male,33.8
+606,1911,Black,Male,34.6
+607,1912,Black,Male,35.9
+608,1913,Black,Male,36.7
+609,1914,Black,Male,37.1
+610,1915,Black,Male,37.5
+611,1916,Black,Male,39.6
+612,1917,Black,Male,37.0
+613,1918,Black,Male,29.9
+614,1919,Black,Male,44.5
+615,1920,Black,Male,45.5
+616,1921,Black,Male,51.6
+617,1922,Black,Male,51.8
+618,1923,Black,Male,47.7
+619,1924,Black,Male,45.5
+620,1925,Black,Male,44.9
+621,1926,Black,Male,43.7
+622,1927,Black,Male,47.6
+623,1928,Black,Male,45.6
+624,1929,Black,Male,45.7
+625,1930,Black,Male,47.3
+626,1931,Black,Male,49.5
+627,1932,Black,Male,52.8
+628,1933,Black,Male,53.5
+629,1934,Black,Male,50.2
+630,1935,Black,Male,51.3
+631,1936,Black,Male,47.0
+632,1937,Black,Male,48.3
+633,1938,Black,Male,51.7
+634,1939,Black,Male,53.2
+635,1940,Black,Male,51.5
+636,1941,Black,Male,52.5
+637,1942,Black,Male,55.4
+638,1943,Black,Male,55.4
+639,1944,Black,Male,55.8
+640,1945,Black,Male,56.1
+641,1946,Black,Male,57.5
+642,1947,Black,Male,57.9
+643,1948,Black,Male,58.1
+644,1949,Black,Male,58.9
+645,1950,Black,Male,59.1
+646,1951,Black,Male,59.2
+647,1952,Black,Male,59.1
+648,1953,Black,Male,59.7
+649,1954,Black,Male,61.1
+650,1955,Black,Male,61.4
+651,1956,Black,Male,61.3
+652,1957,Black,Male,60.7
+653,1958,Black,Male,61.0
+654,1959,Black,Male,61.3
+655,1960,Black,Male,61.1
+656,1961,Black,Male,62.0
+657,1962,Black,Male,61.6
+658,1963,Black,Male,61.0
+659,1964,Black,Male,61.3
+660,1965,Black,Male,61.2
+661,1966,Black,Male,60.9
+662,1967,Black,Male,61.4
+663,1968,Black,Male,60.4
+664,1969,Black,Male,60.6
+665,1970,Black,Male,60.0
+666,1971,Black,Male,60.5
+667,1972,Black,Male,60.4
+668,1973,Black,Male,60.9
+669,1974,Black,Male,61.7
+670,1975,Black,Male,62.4
+671,1976,Black,Male,62.9
+672,1977,Black,Male,63.4
+673,1978,Black,Male,63.7
+674,1979,Black,Male,64.0
+675,1980,Black,Male,63.8
+676,1981,Black,Male,64.5
+677,1982,Black,Male,65.1
+678,1983,Black,Male,65.2
+679,1984,Black,Male,65.3
+680,1985,Black,Male,65.0
+681,1986,Black,Male,64.8
+682,1987,Black,Male,64.7
+683,1988,Black,Male,64.4
+684,1989,Black,Male,64.3
+685,1990,Black,Male,64.5
+686,1991,Black,Male,64.6
+687,1992,Black,Male,65.0
+688,1993,Black,Male,64.6
+689,1994,Black,Male,64.9
+690,1995,Black,Male,65.2
+691,1996,Black,Male,66.1
+692,1997,Black,Male,67.2
+693,1998,Black,Male,67.6
+694,1999,Black,Male,67.8
+695,2000,Black,Male,68.2
+696,2001,Black,Male,68.5
+697,2002,Black,Male,68.7
+698,2003,Black,Male,68.9
+699,2004,Black,Male,69.4
+700,2005,Black,Male,69.5
+701,2006,Black,Male,69.9
+702,2007,Black,Male,70.3
+703,2008,Black,Male,70.9
+704,2009,Black,Male,71.4
+705,2010,Black,Male,71.8
+706,2011,Black,Male,72.2
+707,2012,Black,Male,72.3
+708,2013,Black,Male,72.3
+709,2014,Black,Male,72.5
+710,2015,Black,Male,72.2
+711,2016,Black,Male,72.0
+712,2017,Black,Male,71.9
+713,2018,Black,Male,
+714,1900,White,Both Sexes,47.6
+715,1901,White,Both Sexes,49.4
+716,1902,White,Both Sexes,51.9
+717,1903,White,Both Sexes,50.9
+718,1904,White,Both Sexes,48.0
+719,1905,White,Both Sexes,49.1
+720,1906,White,Both Sexes,49.3
+721,1907,White,Both Sexes,48.1
+722,1908,White,Both Sexes,51.5
+723,1909,White,Both Sexes,52.5
+724,1910,White,Both Sexes,50.3
+725,1911,White,Both Sexes,53.0
+726,1912,White,Both Sexes,53.9
+727,1913,White,Both Sexes,53.0
+728,1914,White,Both Sexes,54.9
+729,1915,White,Both Sexes,55.1
+730,1916,White,Both Sexes,52.5
+731,1917,White,Both Sexes,52.0
+732,1918,White,Both Sexes,39.8
+733,1919,White,Both Sexes,55.8
+734,1920,White,Both Sexes,54.9
+735,1921,White,Both Sexes,61.8
+736,1922,White,Both Sexes,60.4
+737,1923,White,Both Sexes,58.3
+738,1924,White,Both Sexes,61.4
+739,1925,White,Both Sexes,60.7
+740,1926,White,Both Sexes,58.2
+741,1927,White,Both Sexes,62.0
+742,1928,White,Both Sexes,58.4
+743,1929,White,Both Sexes,58.6
+744,1930,White,Both Sexes,61.4
+745,1931,White,Both Sexes,62.6
+746,1932,White,Both Sexes,63.2
+747,1933,White,Both Sexes,64.3
+748,1934,White,Both Sexes,62.4
+749,1935,White,Both Sexes,62.9
+750,1936,White,Both Sexes,59.8
+751,1937,White,Both Sexes,61.4
+752,1938,White,Both Sexes,65.0
+753,1939,White,Both Sexes,64.9
+754,1940,White,Both Sexes,64.2
+755,1941,White,Both Sexes,66.2
+756,1942,White,Both Sexes,67.3
+757,1943,White,Both Sexes,64.2
+758,1944,White,Both Sexes,66.2
+759,1945,White,Both Sexes,66.8
+760,1946,White,Both Sexes,67.5
+761,1947,White,Both Sexes,67.6
+762,1948,White,Both Sexes,68.0
+763,1949,White,Both Sexes,68.8
+764,1950,White,Both Sexes,69.1
+765,1951,White,Both Sexes,69.3
+766,1952,White,Both Sexes,69.5
+767,1953,White,Both Sexes,69.7
+768,1954,White,Both Sexes,70.5
+769,1955,White,Both Sexes,70.5
+770,1956,White,Both Sexes,70.5
+771,1957,White,Both Sexes,70.3
+772,1958,White,Both Sexes,70.5
+773,1959,White,Both Sexes,70.7
+774,1960,White,Both Sexes,70.6
+775,1961,White,Both Sexes,71.0
+776,1962,White,Both Sexes,70.9
+777,1963,White,Both Sexes,70.8
+778,1964,White,Both Sexes,71.0
+779,1965,White,Both Sexes,71.1
+780,1966,White,Both Sexes,71.1
+781,1967,White,Both Sexes,71.4
+782,1968,White,Both Sexes,71.1
+783,1969,White,Both Sexes,71.4
+784,1970,White,Both Sexes,71.7
+785,1971,White,Both Sexes,72.0
+786,1972,White,Both Sexes,72.0
+787,1973,White,Both Sexes,72.2
+788,1974,White,Both Sexes,72.8
+789,1975,White,Both Sexes,73.4
+790,1976,White,Both Sexes,73.6
+791,1977,White,Both Sexes,74.0
+792,1978,White,Both Sexes,74.1
+793,1979,White,Both Sexes,74.6
+794,1980,White,Both Sexes,74.4
+795,1981,White,Both Sexes,74.8
+796,1982,White,Both Sexes,75.1
+797,1983,White,Both Sexes,75.2
+798,1984,White,Both Sexes,75.3
+799,1985,White,Both Sexes,75.3
+800,1986,White,Both Sexes,75.4
+801,1987,White,Both Sexes,75.6
+802,1988,White,Both Sexes,75.6
+803,1989,White,Both Sexes,75.9
+804,1990,White,Both Sexes,76.1
+805,1991,White,Both Sexes,76.3
+806,1992,White,Both Sexes,76.5
+807,1993,White,Both Sexes,76.3
+808,1994,White,Both Sexes,76.5
+809,1995,White,Both Sexes,76.5
+810,1996,White,Both Sexes,76.8
+811,1997,White,Both Sexes,77.1
+812,1998,White,Both Sexes,77.3
+813,1999,White,Both Sexes,77.3
+814,2000,White,Both Sexes,77.3
+815,2001,White,Both Sexes,77.5
+816,2002,White,Both Sexes,77.5
+817,2003,White,Both Sexes,77.7
+818,2004,White,Both Sexes,78.1
+819,2005,White,Both Sexes,78.0
+820,2006,White,Both Sexes,78.3
+821,2007,White,Both Sexes,78.5
+822,2008,White,Both Sexes,78.5
+823,2009,White,Both Sexes,78.8
+824,2010,White,Both Sexes,78.9
+825,2011,White,Both Sexes,79.0
+826,2012,White,Both Sexes,79.1
+827,2013,White,Both Sexes,79.1
+828,2014,White,Both Sexes,79.1
+829,2015,White,Both Sexes,78.9
+830,2016,White,Both Sexes,78.9
+831,2017,White,Both Sexes,78.8
+832,2018,White,Both Sexes,
+833,1900,White,Female,48.7
+834,1901,White,Female,51.0
+835,1902,White,Female,53.8
+836,1903,White,Female,52.5
+837,1904,White,Female,49.5
+838,1905,White,Female,50.6
+839,1906,White,Female,51.4
+840,1907,White,Female,50.4
+841,1908,White,Female,53.3
+842,1909,White,Female,54.2
+843,1910,White,Female,52.0
+844,1911,White,Female,54.9
+845,1912,White,Female,56.2
+846,1913,White,Female,55.7
+847,1914,White,Female,57.5
+848,1915,White,Female,57.5
+849,1916,White,Female,55.2
+850,1917,White,Female,55.3
+851,1918,White,Female,43.2
+852,1919,White,Female,57.4
+853,1920,White,Female,55.6
+854,1921,White,Female,62.9
+855,1922,White,Female,61.9
+856,1923,White,Female,59.6
+857,1924,White,Female,63.4
+858,1925,White,Female,62.4
+859,1926,White,Female,59.6
+860,1927,White,Female,63.9
+861,1928,White,Female,60.0
+862,1929,White,Female,60.3
+863,1930,White,Female,63.5
+864,1931,White,Female,64.7
+865,1932,White,Female,64.5
+866,1933,White,Female,66.3
+867,1934,White,Female,64.6
+868,1935,White,Female,65.0
+869,1936,White,Female,61.9
+870,1937,White,Female,63.8
+871,1938,White,Female,66.8
+872,1939,White,Female,66.6
+873,1940,White,Female,66.6
+874,1941,White,Female,68.5
+875,1942,White,Female,69.4
+876,1943,White,Female,65.7
+877,1944,White,Female,68.4
+878,1945,White,Female,69.5
+879,1946,White,Female,70.3
+880,1947,White,Female,70.5
+881,1948,White,Female,71.0
+882,1949,White,Female,71.9
+883,1950,White,Female,72.2
+884,1951,White,Female,72.4
+885,1952,White,Female,72.6
+886,1953,White,Female,73.0
+887,1954,White,Female,73.7
+888,1955,White,Female,73.7
+889,1956,White,Female,73.9
+890,1957,White,Female,73.7
+891,1958,White,Female,73.9
+892,1959,White,Female,74.2
+893,1960,White,Female,74.1
+894,1961,White,Female,74.6
+895,1962,White,Female,74.5
+896,1963,White,Female,74.4
+897,1964,White,Female,74.7
+898,1965,White,Female,74.8
+899,1966,White,Female,74.8
+900,1967,White,Female,75.2
+901,1968,White,Female,75.0
+902,1969,White,Female,75.3
+903,1970,White,Female,75.6
+904,1971,White,Female,75.8
+905,1972,White,Female,75.9
+906,1973,White,Female,76.1
+907,1974,White,Female,76.7
+908,1975,White,Female,77.3
+909,1976,White,Female,77.5
+910,1977,White,Female,77.9
+911,1978,White,Female,78.0
+912,1979,White,Female,78.4
+913,1980,White,Female,78.1
+914,1981,White,Female,78.4
+915,1982,White,Female,78.7
+916,1983,White,Female,78.7
+917,1984,White,Female,78.7
+918,1985,White,Female,78.7
+919,1986,White,Female,78.8
+920,1987,White,Female,78.9
+921,1988,White,Female,78.9
+922,1989,White,Female,79.2
+923,1990,White,Female,79.4
+924,1991,White,Female,79.6
+925,1992,White,Female,79.8
+926,1993,White,Female,79.5
+927,1994,White,Female,79.6
+928,1995,White,Female,79.6
+929,1996,White,Female,79.7
+930,1997,White,Female,79.9
+931,1998,White,Female,80.0
+932,1999,White,Female,79.9
+933,2000,White,Female,79.9
+934,2001,White,Female,80.0
+935,2002,White,Female,80.1
+936,2003,White,Female,80.2
+937,2004,White,Female,80.5
+938,2005,White,Female,80.5
+939,2006,White,Female,80.7
+940,2007,White,Female,80.9
+941,2008,White,Female,80.9
+942,2009,White,Female,81.2
+943,2010,White,Female,81.3
+944,2011,White,Female,81.3
+945,2012,White,Female,81.4
+946,2013,White,Female,81.4
+947,2014,White,Female,81.4
+948,2015,White,Female,81.3
+949,2016,White,Female,81.3
+950,2017,White,Female,81.2
+951,2018,White,Female,
+952,1900,White,Male,46.6
+953,1901,White,Male,48.0
+954,1902,White,Male,50.2
+955,1903,White,Male,49.5
+956,1904,White,Male,46.6
+957,1905,White,Male,47.6
+958,1906,White,Male,47.3
+959,1907,White,Male,46.0
+960,1908,White,Male,49.9
+961,1909,White,Male,50.9
+962,1910,White,Male,48.6
+963,1911,White,Male,51.3
+964,1912,White,Male,51.9
+965,1913,White,Male,50.8
+966,1914,White,Male,52.7
+967,1915,White,Male,53.1
+968,1916,White,Male,50.2
+969,1917,White,Male,49.3
+970,1918,White,Male,37.1
+971,1919,White,Male,54.5
+972,1920,White,Male,54.4
+973,1921,White,Male,60.8
+974,1922,White,Male,59.1
+975,1923,White,Male,57.1
+976,1924,White,Male,59.8
+977,1925,White,Male,59.3
+978,1926,White,Male,57.0
+979,1927,White,Male,60.5
+980,1928,White,Male,57.0
+981,1929,White,Male,57.2
+982,1930,White,Male,59.7
+983,1931,White,Male,60.8
+984,1932,White,Male,62.0
+985,1933,White,Male,62.7
+986,1934,White,Male,60.5
+987,1935,White,Male,61.0
+988,1936,White,Male,58.0
+989,1937,White,Male,59.3
+990,1938,White,Male,63.2
+991,1939,White,Male,63.3
+992,1940,White,Male,62.1
+993,1941,White,Male,64.4
+994,1942,White,Male,65.9
+995,1943,White,Male,63.2
+996,1944,White,Male,64.5
+997,1945,White,Male,64.4
+998,1946,White,Male,65.1
+999,1947,White,Male,65.2
+1000,1948,White,Male,65.5
+1001,1949,White,Male,66.2
+1002,1950,White,Male,66.5
+1003,1951,White,Male,66.5
+1004,1952,White,Male,66.6
+1005,1953,White,Male,66.8
+1006,1954,White,Male,67.5
+1007,1955,White,Male,67.4
+1008,1956,White,Male,67.5
+1009,1957,White,Male,67.2
+1010,1958,White,Male,67.4
+1011,1959,White,Male,67.5
+1012,1960,White,Male,67.4
+1013,1961,White,Male,67.8
+1014,1962,White,Male,67.7
+1015,1963,White,Male,67.4
+1016,1964,White,Male,67.7
+1017,1965,White,Male,67.6
+1018,1966,White,Male,67.5
+1019,1967,White,Male,67.8
+1020,1968,White,Male,67.5
+1021,1969,White,Male,67.7
+1022,1970,White,Male,68.0
+1023,1971,White,Male,68.3
+1024,1972,White,Male,68.3
+1025,1973,White,Male,68.5
+1026,1974,White,Male,69.0
+1027,1975,White,Male,69.5
+1028,1976,White,Male,69.9
+1029,1977,White,Male,70.2
+1030,1978,White,Male,70.4
+1031,1979,White,Male,70.8
+1032,1980,White,Male,70.7
+1033,1981,White,Male,71.1
+1034,1982,White,Male,71.5
+1035,1983,White,Male,71.6
+1036,1984,White,Male,71.8
+1037,1985,White,Male,71.8
+1038,1986,White,Male,71.9
+1039,1987,White,Male,72.1
+1040,1988,White,Male,72.2
+1041,1989,White,Male,72.5
+1042,1990,White,Male,72.7
+1043,1991,White,Male,72.9
+1044,1992,White,Male,73.2
+1045,1993,White,Male,73.1
+1046,1994,White,Male,73.3
+1047,1995,White,Male,73.4
+1048,1996,White,Male,73.9
+1049,1997,White,Male,74.3
+1050,1998,White,Male,74.5
+1051,1999,White,Male,74.6
+1052,2000,White,Male,74.7
+1053,2001,White,Male,74.9
+1054,2002,White,Male,74.9
+1055,2003,White,Male,75.1
+1056,2004,White,Male,75.5
+1057,2005,White,Male,75.5
+1058,2006,White,Male,75.8
+1059,2007,White,Male,76.0
+1060,2008,White,Male,76.1
+1061,2009,White,Male,76.4
+1062,2010,White,Male,76.5
+1063,2011,White,Male,76.6
+1064,2012,White,Male,76.7
+1065,2013,White,Male,76.7
+1066,2014,White,Male,76.7
+1067,2015,White,Male,76.6
+1068,2016,White,Male,76.4
+1069,2017,White,Male,76.4
+1070,2018,White,Male,
