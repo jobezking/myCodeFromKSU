@@ -22,3 +22,7 @@ str = "purple alice@google.com, blah monkey bob@abc.com dishwasher"
 emails = re.findall(r'[\w\.-]+@[\w\.-]+', str)
 for email in emails:
     print(email)
+
+# https://www.regexpal.com/
+# https://pythex.org
+# https://developers.google.com/edu/python/regular-expressions
