@@ -1,15 +1,15 @@
 import re
-str = 'an example word:cat!!"
+str = "an example word:cat!!"
 match = re.search(r'word:\w\w\w',str)
 if match:
   print('found', match.group())
 else:
-  print('did not find)
+  print('did not find')
 
 ### Search for pattern 'iii' in string 'piiig'.
 ### All of the pattern must match but it may appear anywhere.
 ### On success, match.group() is matched text.
-match = re.search(r'iii', 'piiig)
+match = re.search(r'iii', 'piiig')
 match.group()
 
 match = re.search(r'igs', 'piiig')
