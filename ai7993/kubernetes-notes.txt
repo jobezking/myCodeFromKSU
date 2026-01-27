@@ -1,0 +1,42 @@
+master node
+kube-apiserver: exposes Kubernetes API used by client, along with CLI tools and components to interact with cluster.
+Validates and configures data for API objects i.e. pods, services, replication controllers
+etcd: consistent highly available keystore, used as Kubernetes' backing store for all cluster data
+kube-scheduler: responsible for distributing work or containers across multiple nodes. Reads pod requirements and schedules them based on resource availability.
+worker node
+kubelet: agent that runs on each node to monitor assigned pods and ensure that containers described in pods are healthy and running
+kube-proxy: network proxy and load balancer for Kubernetes and services on each worker node. Helps make services available to external parties.
+
+Requires network to communicate between architecture components. 
+Includes pod network for communication between pods across clusters.
+Includes service network for communication between pods amd Kubernetes services.
+Includes external network to allow external access from/to Kubernetes services.
+
+Kubernetes supports persistent storage for containerized applications to access storage volumes independent from container lifecycle
+Volumes: API object representing storage mounted into containers
+Persistent volumes (PVs): long-lived storage initialized by an administrator
+Persistent volume claims (PVCs): the requests that users make for storage
+
+Extensibility and customization:
+Custom resources: extends the Kubernetes API to support objects
+Operators: has all application-specific controllers to manage custom resources
+Admission controllers: intercepts requests to enforce custom requirements
+Service catalog: provisions cloud services from external brokers
+
+Fundamental API resources
+Pod: represents a group of one or more containers and resources to run an application. Containers in a pod share an IP address, IPC (inter-process commnications),
+hostname and other resources. Pods abstract the underlying infrastructure complexities.
+Service: K8s service provides a consistent endpoint which has already been named. Used to access a group of pods. K8s services  enable loose coupling between
+between dependent pods and provide load balancing across pods. Service group pods provide policies to access them.
+Volumes: a K8s volume enables data to survive container restarts and upgrades via attached storage. Pod volumes outlive the executable container and facilitate
+data sharing between containers that are running as pods
+Namespaces: k8s supports multiple virtual clusters backed by same physical cluster via namespaces. Namespaces partition the cluster resources between multiple
+users and provide isolation between teams and applications. Resource quotas can be applied per namespace.
+https://www.cncf.io/blog/2019/08/19/how-kubernetes-works/
+
+Kubernetes Controllers: k8s uses controller processes to regulate cluster state. Controllers manage pod instances removing need to do so manually. Examples:
+ReplicaSet: ensures number of desired pod replicas 
+Deployment: manages ReplicaSet to roll out new software versions
+
+Labels: Key/value pairs attached to k8s objects like pods and services. Provide identifying attributes that can be used to group objects
+Selectors: allow groupings based on labels during object creation, list and watch operations
