@@ -40,3 +40,26 @@ Deployment: manages ReplicaSet to roll out new software versions
 
 Labels: Key/value pairs attached to k8s objects like pods and services. Provide identifying attributes that can be used to group objects
 Selectors: allow groupings based on labels during object creation, list and watch operations
+Annotations: provide way to attach arbitrary non-identifying metadata on objects that can be retrieved
+by tools and libraries. Annotations do not allow object grouping like labels and selectors do.
+Horizontal Pod Autoscaler: automatically scales number of pods based on CPU utilization
+ConfigMaps and Secrets: stores credentials and other sensitive data to keep them out of container images or application code 
+Security Contexts: a pod security context applies privileges or acess control settings like Linux
+capabilities across all containers in pod. Can be set at container level to override pod level
+Network policies: secure pod networks with rules that control ingress/egress connectivity to allow k8s admins 
+to enforce org security requirements
+Deployments: k8s deployments provide declarative updates to applications. Desired application state
+described in deployment resource which is asynchronously maintained by k8s. Provides robust rollouts/rollbacks
+for software deployments.
+Statefulsets: manage stateful apps like DBs that require stable/persistent storage with ordinal and unique
+IDs for each replica. Safe to delete and reschedule pods managed by Statefulsets
+DaemonSet: ensures that a pod runs on every node in cluster or selection of nodes. Nodes are automatically
+added/removede as pods are automatically added/removed. Provide cluster services i.e. log collection, monitoring agents etc.
+Job: creates one or more pods to run until successful termination. Facilitates moving batch processes
+once they are completed in k8s clusters. Unlike long-running services via deployments, completion/fail 
+counts of batch processes can be tracked
+CronJobs: time based automation. Can set at k8s level instead of Cron at Linux OS level
+Reconciliation model: instead of manual container/pod instance management, k8s implements controller
+reconciliation approach to automation based on desired state declarations. Components i.e. ReplicaSets
+and deployments will be monitored by running instances against specifications that drive towards desired state.
+
