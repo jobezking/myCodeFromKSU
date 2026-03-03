@@ -29,6 +29,7 @@ from transformers.file_utils import ModelOutput
 import torchaudio
 import torch
 import torch.nn as nn
+from torch.cuda.amp import autocast
 
 from sklearn.model_selection import train_test_split
 import IPython.display
@@ -36,12 +37,9 @@ import json
 
 #if is_apex_available():
 #    from apex import amp
-
-if version.parse(torch.__version__) >= version.parse("1.6"):
-    _is_native_amp_available = True
-    from torch.cuda.amp import autocast
-
+#if version.parse(torch.__version__) >= version.parse("1.6"):
 ###
+_is_native_amp_available = True
 load_dotenv() # Loads the variables from .env
 wandb_key  = os.getenv("WANDB_API_KEY")
 token = os.getenv("HF_TOKEN")
