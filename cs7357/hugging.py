@@ -1,5 +1,8 @@
 #sudo apt-get update; sudo apt-get install git-lfs; sudo git lfs install --system --skip-repo
+#sudo mkdir -p /data/type3/data
+#sudo chown -R $USER:$USER /data/type3/data
 #place .env in working directory
+#create dementianet conda environment
 import os
 import sys
 from dotenv import load_dotenv
@@ -291,7 +294,7 @@ class CTCTrainer(Trainer):
 
 ###
 
-save_path = Path('/media/type3/data')
+save_path = Path('/data/type3/data')
 
 dm_path = save_path / 'dementia'
 nd_path = save_path / 'nodementia'
@@ -367,8 +370,8 @@ train_df.to_csv(save_path / 'train_dm.csv', sep='\t', encoding='utf-8', index=Fa
 valid_df.to_csv(save_path / 'valid_dm.csv', sep='\t', encoding='utf-8', index=False)
 ###
 data_files = {
-    'train': '/media/type3/data/train_dm.csv',
-    'valid': '/media/type3/data/valid_dm.csv'
+    'train': '/data/type3/data/train_dm.csv',
+    'valid': '/data/type3/data/valid_dm.csv'
 }
 
 dataset = load_dataset(
