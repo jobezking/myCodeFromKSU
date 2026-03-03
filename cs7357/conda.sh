@@ -16,8 +16,9 @@ pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
 # 4. Install Hugging Face & Data Science stack
 echo "Installing project dependencies..."
 pip install transformers datasets huggingface_hub \
-            pandas numpy scikit-learn tqdm \
-            packaging python-dotenv wandb ipython
+            pandas numpy scikit-learn tqdm accelerate \
+            packaging python-dotenv wandb ipython \
+            git+https://github.com/NVIDIA/apex.git
 
 echo "------------------------------------------------"
 echo "Setup Complete!"
