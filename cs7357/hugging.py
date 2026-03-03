@@ -25,6 +25,10 @@ import torchaudio
 import torch
 import torch.nn as nn
 
+from sklearn.model_selection import train_test_split
+import IPython.display
+import json
+
 if is_apex_available():
     from apex import amp
 
@@ -39,6 +43,40 @@ token = os.getenv("HF_TOKEN")
 wandb.login(key=wandb_key)
 from huggingface_hub import login
 login(token=HF_TOKEN)
+
+def split_df(df, col, val):
+    return df[df[col] == val], df[df[col] != val]
+
+def Audio(audio: np.ndarray, sr: int):
+    """
+    Use instead of IPython.display.Audio as a workaround for VS Code.
+    `audio` is an array with shape (channels, samples) or just (samples,) for mono.
+    """
+
+    if np.ndim(audio) == 1:
+        channels = [audio.tolist()]
+    else:
+        channels = audio.tolist()
+
+    return IPython.display.HTML("""
+        <script>
+            if (!window.audioContext) {
+                window.audioContext = new AudioContext();
+                window.playAudio = function(audioChannels, sr) {
+                    const buffer = audioContext.createBuffer(audioChannels.length, audioChannels[0].length, sr);
+                    for (let [channel, data] of audioChannels.entries()) {
+                        buffer.copyToChannel(Float32Array.from(data), channel);
+                    }
+
+                    const source = audioContext.createBufferSource();
+                    source.buffer = buffer;
+                    source.connect(audioContext.destination);
+                    source.start();
+                }
+            }
+        </script>
+        <button onclick="playAudio(%s, %s)">Play</button>
+    """ % (json.dumps(channels), sr))
 
 def random_subsample(wav: np.ndarray, max_length: float, sample_rate: int = 16000):
     """Randomly sample chunks of `max_length` seconds from the input audio"""
@@ -249,6 +287,82 @@ class CTCTrainer(Trainer):
 
         return loss.detach()
 
+###
+
+save_path = Path('/media/type3/data')
+
+dm_path = save_path / 'dementia'
+nd_path = save_path / 'nodementia'
+dm_df = pd.read_csv(save_path/'dementia.csv')
+nd_df = pd.read_csv(save_path/'nodementia.csv')
+dm_df.head()
+
+valid_dm, train_dm = split_df(dm_df, 'datasplit', 'valid')
+test_dm, train_dm = split_df(train_dm, 'datasplit', 'test')
+valid_nd, train_nd = split_df(nd_df, 'datasplit', 'valid')
+
+train_dmlst = train_dm['name'].tolist()
+train_ndlst = train_nd['name'].tolist()
+valid_dmlst = valid_dm['name'].tolist()
+valid_ndlst = valid_nd['name'].tolist()
+print(len(train_dmlst), len(train_ndlst), len(valid_dmlst), len(valid_ndlst))
+
+data_train = []
+data_valid = []
+for path in tqdm(dm_path.glob('**/*.wav')):
+    name = str(path).split('/')[-1].split('.')[0]
+    person = str(path).split('/')[-2]
+    if person in train_dmlst:
+        try:
+            s = torchaudio.load(path)
+            data_train.append({ 'file': name, 'label': 'dementia', 'path': path })
+        except Exception as e:
+            print(f'{path} is not a valid wav file', e)
+            pass
+    elif person in valid_dmlst:
+        try:
+            s = torchaudio.load(path)
+            data_valid.append({ 'file': name, 'label': 'dementia', 'path': path })
+        except Exception as e:
+            print(f'{path} is not a valid wav file', e)
+            pass
+
+for path in tqdm(nd_path.glob('**/*.wav')):
+    name = str(path).split('/')[-1].split('.')[0]
+    person = str(path).split('/')[-2]
+
+    if person in train_ndlst:
+        try:
+            s = torchaudio.load(path)
+            data_train.append({ 'file': name, 'label': 'nodementia', 'path': path })
+        except Exception as e:
+            print(f'{path} is not a valid wav file', e)
+            pass
+    elif person in valid_ndlst:
+        try:
+            s = torchaudio.load(path)
+            data_valid.append({ 'file': name, 'label': 'nodementia', 'path': path })
+        except Exception as e:
+            print(f'{path} is not a valid wav file', e)
+            pass
+
+train_df = pd.DataFrame(data_train)
+valid_df = pd.DataFrame(data_valid)
+train_df.head()
+
+valid_df.head()
+print("Labels: ", train_df.label.unique())
+print(len(train_df.label.unique()))
+
+train_df.groupby('label').count()[['path']]
+print(f"train: {len(train_df)}")
+print(f"valid: {len(valid_df)}")
+
+train_df = train_df.reset_index(drop=True)
+valid_df = valid_df.reset_index(drop=True)
+
+train_df.to_csv(save_path / 'train_dm.csv', sep='\t', encoding='utf-8', index=False)
+valid_df.to_csv(save_path / 'valid_dm.csv', sep='\t', encoding='utf-8', index=False)
 ###
 data_files = {
     'train': '/media/type3/data/train_dm.csv',
