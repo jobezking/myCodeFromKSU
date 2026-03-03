@@ -34,8 +34,8 @@ from sklearn.model_selection import train_test_split
 import IPython.display
 import json
 
-if is_apex_available():
-    from apex import amp
+#if is_apex_available():
+#    from apex import amp
 
 if version.parse(torch.__version__) >= version.parse("1.6"):
     _is_native_amp_available = True
@@ -47,7 +47,7 @@ wandb_key  = os.getenv("WANDB_API_KEY")
 token = os.getenv("HF_TOKEN")
 wandb.login(key=wandb_key)
 from huggingface_hub import login
-login(token=HF_TOKEN)
+login(token=token)
 
 def split_df(df, col, val):
     return df[df[col] == val], df[df[col] != val]
