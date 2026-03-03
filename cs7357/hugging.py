@@ -1,3 +1,5 @@
+#sudo apt-get update; sudo apt-get install git-lfs; sudo git lfs install --system --skip-repo
+#place .env in working directory
 import os
 import sys
 from dotenv import load_dotenv
