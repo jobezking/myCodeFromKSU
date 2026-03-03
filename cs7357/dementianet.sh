@@ -1,12 +1,13 @@
 #!/bin/bash
-
+sudo apt update; sudo apt install git-lfs; sudo git lfs install --system --skip-repo
 # 1. Create the Conda environment
-echo "Creating conda environment: speech_clf..."
-conda create -n speech_clf python=3.10 -y
+conda deactivate 2>/dev/null || true
+echo "Creating conda environment: dementianet..."
+conda create -n dementianet python=3.10 -y
 
 # 2. Activate environment
-source $(conda info --base)/etc/profile.d/conda.sh
-conda activate speech_clf
+#source $(conda info --base)/etc/profile.d/conda.sh
+conda activate dementianet
 
 # 3. Install PyTorch + Torchaudio (Optimized for RTX 40-series/CUDA 12.4+)
 # While your driver supports 13.0, 12.4 is the current stable target for 4060 performance.
@@ -22,5 +23,6 @@ pip install transformers datasets huggingface_hub \
 
 echo "------------------------------------------------"
 echo "Setup Complete!"
-echo "Activate with: conda activate speech_clf"
+echo "Activate with: conda activate dementianet"
 echo "------------------------------------------------"
+python -m ipykernel install --user --name=dementianet --display-name "Python (dementianet)"
