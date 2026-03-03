@@ -22,7 +22,7 @@ from typing import Any, Dict, List, Optional, Tuple, Union
 from random import randint
 
 import transformers
-from transformers import AutoConfig, Wav2Vec2Processor, Wav2Vec2FeatureExtractor, EvalPrediction, Trainer, TrainingArguments, is_apex_available
+from transformers import AutoConfig, Wav2Vec2Processor, Wav2Vec2FeatureExtractor, EvalPrediction, Trainer, TrainingArguments
 from transformers.models.wav2vec2.modeling_wav2vec2 import (Wav2Vec2PreTrainedModel, Wav2Vec2Model)
 from transformers.file_utils import ModelOutput
 
